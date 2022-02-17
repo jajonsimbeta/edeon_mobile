@@ -31,6 +31,10 @@
         });
 
 
+        /*서브 nav ui*/
+        $('.cont_nav_depth > em').click(function(e){
+            $('.cont_nav').toggleClass('on');
+        })
 
         /*풋터 패밀리 사이트 열닫*/
         $('.footer_family > a').click(function(e){

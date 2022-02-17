@@ -707,8 +707,8 @@
                 <!--인기강좌-->
                 <div class="pop_lec_section">
                     <h3>인기 강좌</h3>
-                    <div class="pop_lec_list">
-                        <div class="pop_lec_slider">
+                    <div class="pop_lec_list pop_lec_list1">
+                        <div class="pop_lec_slider pop_lec_slider1">
                             <div class="pop_lec_item">
                                 <a href="#">
                                     <span class="lec_img">
@@ -776,24 +776,32 @@
                             </div>
 
                         </div>
-                        <div class="slider_controll">
-                            <div class="dir_btn prev"><i class="xi-angle-left"></i><a class="bx-prev" href="">Prev</a></div>
-                            <div class="cnt">
-                                <strong class="current">2</strong> / <span class="total">2</span>
-                            </div>
-                            <div class="dir_btn next"><i class="xi-angle-right"></i><a class="bx-next" href="">Next</a></div>
-                        </div>
-                        <a href="#" class="more"><i class="xi-plus-min"><span class="hidden">인기강좌 더보기</span></i></a>
+                        
                     </div>
 
-
+                    <script type="text/javascript">
+                        (function() {
+                            var _Wrap = jQuery('.pop_lec_list1'),
+                                _lecSlider = jQuery('.pop_lec_slider1', _Wrap).bxSlider({
+                                    pager: true,
+                                    minSlides: 2,
+                                    maxSlides: 2,
+                                    moveSlides: 2,
+                                    slideWidth: 800,
+                                    slideMargin:5,
+                                    shrinkItems:true,
+                                    controls:false
+                                });
+                            
+                        }());
+                    </script>
                 </div>
 
                 <!--신규 오픈 강좌-->
                 <div class="pop_lec_section">
                     <h3>신규 오픈 강좌</h3>
-                    <div class="pop_lec_list">
-                        <div class="pop_lec_slider">
+                    <div class="pop_lec_list pop_lec_list2">
+                        <div class="pop_lec_slider pop_lec_slider2">
                             <div class="pop_lec_item">
                                 <a href="#">
                                     <span class="lec_img">
@@ -861,37 +869,21 @@
                             </div>
 
                         </div>
-                        <div class="slider_controll">
-                            <div class="dir_btn prev"><i class="xi-angle-left"></i><a class="bx-prev" href="">Prev</a></div>
-                            <div class="cnt">
-                                <strong class="current">2</strong> / <span class="total">2</span>
-                            </div>
-                            <div class="dir_btn next"><i class="xi-angle-right"></i><a class="bx-next" href="">Next</a></div>
-                        </div>
-                        <a href="#" class="more"><i class="xi-plus-min"><span class="hidden">인기강좌 더보기</span></i></a>
                     </div>
 
 
                     <script type="text/javascript">
                         (function() {
-                            var _Wrap = jQuery('.pop_lec_list'),
-                                _current = jQuery('.slider_controll .current', _Wrap),
-                                _lecSlider = jQuery('.pop_lec_slider', _Wrap).bxSlider({
-                                    pager: false,
-                                    touchEnabled: false,    // false: PC 클릭 가능
-                                    minSlides: 3,
-                                    maxSlides: 3,
-                                    moveSlides: 3,
-                                    slideWidth: 381,
-                                    slideMargin: 29,
-                                    nextSelector: jQuery('.pop_lec_list .slider_controll .next'),
-                                    prevSelector: jQuery('.pop_lec_list .slider_controll .prev'),
-                                    onSliderLoad: function (currentIndex) {
-                                        _current.text(currentIndex + 1);
-                                    },
-                                    onSlideBefore: function (slideElement, oldIndex, newIndex) {
-                                        _current.text(newIndex + 1);
-                                    }
+                            var _Wrap = jQuery('.pop_lec_list2'),
+                                _lecSlider = jQuery('.pop_lec_slider2', _Wrap).bxSlider({
+                                    pager: true,
+                                    minSlides: 2,
+                                    maxSlides: 2,
+                                    moveSlides: 2,
+                                    slideWidth: 800,
+                                    slideMargin:5,
+                                    shrinkItems:true,
+                                    controls:false
                                 });
                             
                         }());
