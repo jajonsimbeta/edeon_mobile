@@ -19,99 +19,116 @@
 <body>
     <div class="eduon_wrap">
         <!--header-->
-        <header class="eduon_header">
-            <div class="header_wrap">
-                <div class="header_grid">
-                    <h1 class="eduon_logo"><a href="/">에듀온</a></h1>
-                    <!--gnb-->
-                    <nav class="edu_gnb">
-                        <ul class="main_nav">
-                            <li>
-                                <a href="#" class="active">회사소개</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">세진에듀 소개</a></li>
-                                    <li><a href="#">회사연혁</a></li>
-                                    <li><a href="#">비전과 미션</a></li>
-                                    <li><a href="#">사회환원</a></li>
-                                    <li><a href="#">미디어</a></li>
-                                    <li><a href="#">오시는 길</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">강의제작지원</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">강사모집 안내</a></li>
-                                    <li><a href="#">강의개설 안내</a></li>
-                                    <li><a href="#">브랜드 입점</a></li>
-                                    <li><a href="#">스튜디오 소개</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="#">문제은행</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">기출문제</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">교재몰</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">교재구매</a></li>
-                                    <li><a href="#">교재공지</a></li>
-                                    <li><a href="#">교재문의</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">평생교육</a>
-                                <ul class="sub_nav">
-                                    <li><a href="">전체강좌</a></li>
-                                    <li><a href="">공무원</a></li>
-                                    <li><a href="">자격증</a></li>
-                                    <li><a href="">IT&amp;Software</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">학습지원센터</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">공지사항</a></li>
-                                    <li><a href="#">1:1 상담게시판</a></li>
-                                    <li><a href="#">입금/결제 문의</a></li>
-                                    <li><a href="#">동영상 재생 문의</a></li>
-                                    <li><a href="#">공동구매 신청</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">필수프로그램</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                    <!--gnb-->
-                    <div class="member_info">
-                        <!--로그아웃 상태-->
-                        <div class="state_logout">
-                            <ul>
-                                <li><a href="#">로그인</a></li>
-                                <li><a href="#">회원가입</a></li>
-                            </ul>
-                        </div>
-                        <!--로그인 상태-->
-                        <div class="state_login">
-                            <ul>
-                                <li><a href="#">내 강의실</a></li>
-                                <li class="myname"><a href="#">김소민님 <i class="xi-angle-down-min"></i></a>
-                                    <div class="my_info">
-                                        <ul>
-                                            <li><a href="#">내 정보</a></li>
-                                            <li><a href="#">쪽지함</a></li>
-                                            <li><a href="#">로그아웃</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="arlim on"><a href="#"><i class="xi-bell-o"></i><i class="xi-bell"></i><span class="hidden">알림</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <header>
+    
+            <div class="eduon_header">
+                <h1 class="eduon_logo"><a href="/">에듀온</a></h1>
+                <button class="menu_toggle" title="메뉴열고 닫기"><i class="xi-bars"></i></button>
+                <button class="info_toggle" title="메뉴열고 닫기">개인정보 메뉴</button>
             </div>
+            <!--gnb-->
+            <nav class="edu_gnb">
+                <div class="menubar">
+                    <span class="logo"><img src="images/eduon_logo_w.png" alt="에듀온"></span>
+                    <button class="menu_close"><i class="xi-close"><span class="hidden">닫기</span></i></button>
+                </div>
+                <ul class="main_nav">
+                    <li>
+                        <a href="#">회사소개</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">세진에듀 소개</a></li>
+                            <li><a href="#">회사연혁</a></li>
+                            <li><a href="#">비전과 미션</a></li>
+                            <li><a href="#">사회환원</a></li>
+                            <li><a href="#">미디어</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">강의제작지원</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">강사모집 안내</a></li>
+                            <li><a href="#">강의개설 안내</a></li>
+                            <li><a href="#">브랜드 입점</a></li>
+                            <li><a href="#">스튜디오 소개</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">문제은행</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">기출문제</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">교재몰</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">교재구매</a></li>
+                            <li><a href="#">교재공지</a></li>
+                            <li><a href="#">교재문의</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">평생교육</a>
+                        <ul class="sub_nav">
+                            <li><a href="">전체강좌</a></li>
+                            <li><a href="">공무원</a></li>
+                            <li><a href="">자격증</a></li>
+                            <li><a href="">IT&amp;Software</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">학습지원센터</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">1:1 상담게시판</a></li>
+                            <li><a href="#">입금/결제 문의</a></li>
+                            <li><a href="#">동영상 재생 문의</a></li>
+                            <li><a href="#">공동구매 신청</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">필수프로그램</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!--gnb-->
+            <div class="member_info">
+                <div class="menubar">
+                    <span class="logo"><img src="images/eduon_logo_w.png" alt="에듀온"></span>
+                    <button class="menu_close"><i class="xi-close"><span class="hidden">닫기</span></i></button>
+                </div>
+                <ul class="main_nav">
+                    <li>
+                        <a href="#" class="active">수강/결제 관리 </a>
+                        <ul class="sub_nav">
+                            <li><a href="#">수강강좌 정보</a></li>
+                            <li><a href="#">결제내역/교재배송 확인</a></li>
+                            <li><a href="#">증빙서류 발급 신청</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">상담내역 관리</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">게시판 문의 내역</a></li>
+                            <li><a href="#">학습질문/답변 내역</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">쪽지함  <b class="new">N</b></a>
+                        <ul class="sub_nav">
+                            <li><a href="#">받은 쪽지함  <b class="new">N</b></a></li>
+                            <li><a href="#">보낸 쪽지함</a></li>
+                            <li><a href="#">쪽지 보내기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">개인정보관리</a>
+                      
+                    </li>
+                </ul>
+            </div>
+            <div class="dim"></div>
         </header>
         <!--// header-->
         <script type="text/javascript">
@@ -149,41 +166,34 @@
                                         <video autoplay loop muted>
                                             <source src="https://eduon.com/images/Banner/mainVisual/P/banner_616cfdfd99f86.mp4?1634532861" type="video/mp4">
                                         </video>
+                                        <a href="/yst/contents/passinfo" target="_self" class="bn_img">
+                                            <img src="https://eduon.com//images/Banner/mainVisual/M/banner_616d1ef2f12af.png?1634541298" alt="4회연속 계리직 합격자수 1위 유상통" class="fleximg">
+                                        </a>
                                     </div>
-
-                                    <div class="viausl_mask" style="background-image: url('https://eduon.com/images/Banner/mainVisual/P/banner_616cfe079a184.png?1634532871');"><a href="#" target="_self" style="display:block;height:100%;"></a></div>
                                 </div>
                             </div>
                             <div class="item_box">
-                                <div style="background-image: url('https://eduon.com/images/Banner/mainVisual/P/banner_61a5d0cb96d7a.jpg?1638256859');" class="visual_item">
-                                    <a href="#" target="_self" style="display:block;height:100%;" alt="돈워리패스 오픈"></a>
-                                </div>
+                                <a href="/yst/support/noticeView/1304" target="_self">
+                                    <img src="images/main_sample01.jpg" alt="2022 계리직 시험공고" class="fleximg">
+                                </a>
                             </div>
                             <div class="item_box">
-                                <div style="background-image: url('https://eduon.com/images/Banner/mainVisual/P/banner_61a5d0cb96d7a.jpg?1638256859');" class="visual_item">
-                                    <a href="#" target="_self" style="display:block;height:100%;" alt="돈워리패스 오픈"></a>
-                                </div>
+                                <a href="/yst/support/noticeView/1304" target="_self">
+                                    <img src="images/main_sample01.jpg" alt="2022 계리직 시험공고" class="fleximg">
+                                </a>
                             </div>
                         </div>
-                        <div class="visual_controll">
-                            <div class="dir_btn prev"><i class="xi-angle-left"></i></div>
-                            <div class="dir_btn next"><i class="xi-angle-right"></i></div>
-                        </div>
+                       
                     </div>
                     <script type="text/javascript">
                         (function() {
-                            var _Wrap = jQuery('.main_visual .visual_wrap'),
-                                _visualSlider = jQuery('.main_slider', _Wrap).bxSlider({
-                                    mode: 'fade',
-                                    auto: true,
-                                    speed: 500,
-                                    pause: 5000,
-                                    autoHover: true,
-                                    pager: true,
-                                    touchEnabled: false,    // false: PC 클릭 가능
-                                    nextSelector: jQuery('.visual_controll .next'),
-                                    prevSelector: jQuery('.visual_controll .prev')
-                                });
+                            jQuery('.main_slider').bxSlider({
+                                speed: 500,
+                                pause: 5000,
+                                auto: true,
+                                controls: false,
+                                touchEnabled:(navigator.maxTouchPoints > 0),
+                            });
                         }());
                     </script>
                 </div> <!--main_visual-->
@@ -193,10 +203,10 @@
                         <li>
                             <a href="#">
                                 <em class="tit">계리직</em>
+                                <span class="summary">## 4회 연속 합격자수 1위 <br># 유쾌한 강의 # 통쾌한 합격</span>
                                 <span class="sym">
                                     <img src="images/brand1.png" alt="">
                                 </span>
-                                <span class="summary"># 4회연속 <br>합격자수 1위</span>
                             </a>
                         </li>
 
@@ -206,7 +216,7 @@
                                 <span class="sym">
                                     <img src="images/brand2.png" alt="">
                                 </span>
-                                <span class="summary"># 군무원 전문 <br> 강의&교재</span>
+                                <span class="summary"># 군무원 전문 강의&교재 <br># 2025년까지 증원 예정</span>
                             </a>
                         </li>
 
@@ -216,7 +226,7 @@
                                 <span class="sym">
                                     <img src="images/brand3.png" alt="">
                                 </span>
-                                <span class="summary"># 쉬운 강의 X <br>빠른 이해</span>
+                                <span class="summary"># 쉬운 강의 X 빠른 이해 <br># 발 빠른 수험정보</span>
                             </a>
                         </li>
 
@@ -226,7 +236,7 @@
                                 <span class="sym">
                                     <img src="images/brand4.png" alt="">
                                 </span>
-                                <span class="summary"># 최신개정 <br>전면 반영</span>
+                                <span class="summary"># 최신개정 전면 반영<br># 쉽고 자세한 해설</span>
                             </a>
                         </li>
 
@@ -236,80 +246,11 @@
                                 <span class="sym">
                                     <img src="images/brand5.png" alt="">
                                 </span>
-                                <span class="summary"># IT  분야 <br>강좌</span>
+                                <span class="summary"># IT 분야 강좌 서비스</span>
                             </a>
                         </li>
                     </ul>
                 </div><!--main_brand-->
-
-                <div class="int_brand">
-                    <div class="scroll_brand">
-                        <div class="brand_scorll">
-                            <div class="brand_item">
-                                <em class="tit">계리직 유상통</em>
-                                <div class="hash_tag">
-                                    <span># 4회 연속 1위</span>
-                                    <span># 유쾌한 강의</span>
-                                    <span># 상쾌한 소통</span>
-                                    <span># 통쾌한 합격</span>
-                                </div>
-                                <a href="#" class="link_brnad">브랜드 바로가기</a>
-                                <span class="brand_img"><img src="images/use_brand1.png" alt=""></span>
-                            </div>
-                            <div class="brand_item">
-                                <em class="tit">에듀온 군무원</em>
-                                <div class="hash_tag">
-                                    <span># 군무원 전문 강의&교재</span>
-                                    <span># 2025년까지 증원 예정</span>
-                                </div>
-                                <a href="#" class="link_brnad">브랜드 바로가기</a>
-                                <span class="brand_img"><img src="images/use_brand2.png" alt=""></span>
-                            </div>
-                            <div class="brand_item">
-                                <em class="tit">에듀온 전산직</em>
-                                <div class="hash_tag">
-                                    <span># 전산직 전문 강의&교재</span>
-                                    <span class="mr"># 발빠른 수험정보</span>
-                                    <span># 면접 완벽 대비</span>
-                                </div>
-                                <a href="#" class="link_brnad">브랜드 바로가기</a>
-                                <span class="brand_img"><img src="images/use_brand3.png" alt=""></span>
-                            </div>
-                            <div class="brand_item">
-                                <em class="tit">에듀온 정보처리</em>
-                                <div class="hash_tag">
-                                    <span class="mr">#쉽고 자세한 해설</span>
-                                    <span>#철저한 기출분석</span>
-                                    <span>#최신개정 전면 반영</span>
-                                </div>
-                                <a href="#" class="link_brnad">브랜드 바로가기</a>
-                                <span class="brand_img"><img src="images/use_brand4.png" alt=""></span>
-                            </div>
-                        </div>
-
-                        <div class="dir_controll">
-                            <div class="dir_btn prev"><i class="xi-angle-left"></i></div>
-                            <div class="dir_btn next"><i class="xi-angle-right"></i></div>
-                        </div>
-                    </div>
-
-                    <script type="text/javascript">
-                        (function() {
-                     
-                            var _Wrap = jQuery('.brand_scorll'),
-                                _visualSlider = jQuery(_Wrap).bxSlider({
-                                    speed: 500,
-                                    pause: 5000,
-                                    autoHover: true,
-                                    pager: true,
-                                    touchEnabled: false,    // false: PC 클릭 가능
-                                    nextSelector: jQuery('.dir_controll .next'),
-                                    prevSelector: jQuery('.dir_controll .prev')
-                                });
-                            
-                        }());
-                    </script>
-                </div>
 
                 <div class="hotnew_section">
                     <h3>에듀온 <b>HOT&amp;NEW</b></h3>
@@ -334,127 +275,103 @@
                                 <img src="images/new6.jpg" alt="군무원 평생 무적패스 ">
                             </div>   
                         </div>
-                        <div class="dir_controll">
-                            <div class="dir_btn prev"><i class="xi-angle-left-min"></i></div>
-                            <div class="dir_btn next"><i class="xi-angle-right-min"></i></div>
-                        </div>
+                        
                     </div>
 
                     <script type="text/javascript">
                         (function() {
-                     
                             var _Wrap = jQuery('.hot_scroll'),
                                 _visualSlider = jQuery(_Wrap).bxSlider({
-                                    autoHover: true,
-                                    pager: false,
-                                    slideWidth: 384,
-                                    slideMargin: 24,
-                                    maxSlides:3,
-                                    moveSlides: 3,
-                                    touchEnabled: false,    // false: PC 클릭 가능
-                                    nextSelector: jQuery('.hotnew_wrap .dir_controll .next'),
-                                    prevSelector: jQuery('.hotnew_wrap .dir_controll .prev')
-                                });
+                                    speed: 500,
+                                    auto: true,
+                                    infiniteLoop: true,
+                                    controls: false,
+                                    onSliderLoad:  function(idx) {
+                                        jQuery('.newitem', this).not('.bx-clone')
+                                            .eq(idx).addClass('on');
+                                    },
+                                    onSlideBefore: function(el, oidx, nidx) {
+                                        var _el = jQuery(el);
+
+                                        if ((oidx+1)%_visualSlider.getSlideCount() == nidx) { // next
+                                            _el.next().addClass('on');
+                                        } else { // prev
+                                            _el.addClass('on');
+                                        }
+                                        var _elon = jQuery(el).addClass('on');
+                                        _elon.siblings('.on').removeClass('on');
+                                    }
+                            });
+                        
+                    }());
+                </script>
+            </div>
+
+
+            <div class="main_media">
+                <h3>빠른 합격 = 에듀온</h3>
+                <div class="media_list">
+                    <div class="media_scroll">
+                        <div class="media_item">
+                            <a href="#">
+                                <div class="thum"><img src="images/video-1.png" alt=""></div>
+                                <div class="title">
+                                    <em>유상통</em>
+                                    <span>주부수험생, 단기간의 고득점 비법, 슬럼프 극복법, 면접 준비과정은?</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="media_item">
+                            <a href="#">
+                                <div class="thum"><img src="images/video-2.png" alt=""></div>
+                                <div class="title">
+                                    <em>계리직</em>
+                                    <span>주부수험생, 단기간의 고득점 비법, 슬럼프 극복법, 면접 준비과정은?</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="media_item">
+                            <a href="#">
+                                <div class="thum"><img src="images/video-3.png" alt=""></div>
+                                <div class="title">
+                                    <em>유상통</em>
+                                    <span>유상통 3번째 도전 직장 병행 장수생, 주부 수험생</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="media_item">
+                            <a href="#">
+                                <div class="thum"><img src="images/video-3.png" alt=""></div>
+                                <div class="title">
+                                    <em>유상통</em>
+                                    <span>유상통 3번째 도전 직장 병행 장수생, 주부 수험생</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dir_controll">
+                        <div class="dir_btn prev"><i class="xi-angle-left-min"></i></div>
+                        <div class="dir_btn next"><i class="xi-angle-right-min"></i></div>
+                    </div>
+                    <script type="text/javascript">
+                        (function() {
+                        
+                            var _Wrap = jQuery('.media_scroll'),
+                            _visualSlider = jQuery(_Wrap).bxSlider({
+                                speed: 500,
+                                auto: true,
+                                infiniteLoop: true,
+                                nextSelector: jQuery('.media_list .dir_controll .next'),
+                                prevSelector: jQuery('.media_list .dir_controll .prev')
+                            });
                             
                         }());
                     </script>
                 </div>
-
-
-                <div class="main_media">
-                    <h3>빠른 합격 = 에듀온</h3>
-                    <div class="media_list">
-                        <div class="media_scroll">
-                            <div class="media_item">
-                                <a href="#">
-                                    <div class="thum"><img src="images/video-1.png" alt=""></div>
-                                    <div class="title">
-                                        <em>유상통</em>
-                                        <span>주부수험생, 단기간의 고득점 비법, 슬럼프 극복법, 면접 준비과정은?</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="media_item">
-                                <a href="#">
-                                    <div class="thum"><img src="images/video-2.png" alt=""></div>
-                                    <div class="title">
-                                        <em>계리직</em>
-                                        <span>주부수험생, 단기간의 고득점 비법, 슬럼프 극복법, 면접 준비과정은?</span>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="media_item">
-                                <a href="#">
-                                    <div class="thum"><img src="images/video-3.png" alt=""></div>
-                                    <div class="title">
-                                        <em>유상통</em>
-                                        <span>유상통 3번째 도전 직장 병행 장수생, 주부 수험생</span>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="media_item">
-                                <a href="#">
-                                    <div class="thum"><img src="images/video-3.png" alt=""></div>
-                                    <div class="title">
-                                        <em>유상통</em>
-                                        <span>유상통 3번째 도전 직장 병행 장수생, 주부 수험생</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="dir_controll">
-                            <div class="dir_btn prev"><i class="xi-angle-left-min"></i></div>
-                            <div class="dir_btn next"><i class="xi-angle-right-min"></i></div>
-                        </div>
-                        <script type="text/javascript">
-                            (function() {
-                         
-                                var _Wrap = jQuery('.media_scroll'),
-                                    _visualSlider = jQuery(_Wrap).bxSlider({
-                                        speed: 500,
-                                        auto: true,
-                                        autoHover: true,
-                                        pager: true,
-                                        infiniteLoop: true,
-                                        touchEnabled: false,    // false: PC 클릭 가능
-                                        nextSelector: jQuery('.media_list .dir_controll .next'),
-                                        prevSelector: jQuery('.media_list .dir_controll .prev'),
-                                        onSliderLoad:  function(idx) {
-                                            jQuery('.media_item', this).not('.bx-clone')
-                                                .eq(idx).addClass('on');
-                                        },
-                                        onSlideNext: function(el, oidx, nidx) {
-                                            var _el = jQuery(el);
-
-                                            if ((oidx+1)%_visualSlider.getSlideCount() == nidx) { // next
-                                                _el.next().addClass('on');
-                                            } else { // prev
-                                                _el.addClass('on');
-                                            }
-                                            var _elon = jQuery(el).addClass('on');
-                                            _elon.siblings('.on').removeClass('on');
-                                        },
-                                        onSlidePrev:  function(el, oidx, nidx) {
-                                            var _el = jQuery(el);
-
-                                            if ((oidx+1)%_visualSlider.getSlideCount() == nidx) { // next
-                                                _el.next().addClass('on');
-                                            } else { // prev
-                                                _el.addClass('on');
-                                            }
-                                            var _elon = jQuery(el).addClass('on');
-                                            _elon.siblings('.on').removeClass('on');
-                                            
-                                        }
-                                    });
-                                
-                            }());
-                        </script>
-                    </div>
-                </div>
+            </div>
 
                 <!--합격 후기-->
                 <div class="main_review_section">
@@ -539,12 +456,10 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="dir_controll">
-                                <div class="dir_btn prev"><i class="xi-angle-left-min"></i></div>
-                                <div class="dir_btn next"><i class="xi-angle-right-min"></i></div>
-                            </div>
-                            <a href="#" class="more"><i class="xi-plus-min"><span class="hidden">계리직 더보기</span></i></a>
+                            <a href="#" class="more">수강후기 더보기</a>
                         </div><!--게리직 합격 수기 모음-->
+
+
                          <!--군무원 합격 수기 모음
                          <div class="main_review_wrap" style="display: none;">
                             <div class="main_review">
@@ -712,40 +627,11 @@
                     <script type="text/javascript">
                         (function() {
                             var _reviewSlider = jQuery('.main_review').bxSlider({
-                                mode: 'horizontal',
+                                speed: 500,
                                 auto: true,
-                                autoHover: true,
-                                pager: false,
-                                maxSlides:2,
-                                moveSlides: 1,
                                 infiniteLoop: true,
-                                slideWidth: 594,
-                                slideMargin: 12,
-                                touchEnabled: false,    // false: PC 클릭 가능
-                                controls: false,
-                                onSliderLoad:  function(idx) {
-                                    console.log(idx)
-                                    jQuery('.review_item', this).not('.bx-clone')
-                                        .eq(idx).addClass('on')
-                                        .next().addClass('on');
-                                },
-                                onSlideBefore: function(el, oidx, nidx) {
-                                    var _el = jQuery(el);
-            
-                                    if ((oidx+1)%_reviewSlider.getSlideCount() == nidx) { // next
-                                        _el.next().addClass('on');
-                                    } else { // prev
-                                        _el.addClass('on');
-                                    }
-                                },
-                                onSlideAfter:  function(el, oidx, nidx) {
-                                    var _el = jQuery(el).addClass('on');
-                                    _el.siblings('.on').removeClass('on');
-                                    _el.next().addClass('on');
-                                },
+                                controls: false
                             });
-                            jQuery('.main_review_wrap .prev').on('click', function() { _reviewSlider.goToPrevSlide(); });
-                            jQuery('.main_review_wrap .next').on('click', function() { _reviewSlider.goToNextSlide(); });
                         }());
                     </script>
 
@@ -799,25 +685,16 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="dir_controll">
-                            <div class="dir_btn prev"><i class="xi-angle-left-min"></i></div>
-                            <div class="dir_btn next"><i class="xi-angle-right-min"></i></div>
-                        </div>
 
                         <script type="text/javascript">
                             (function() {
                                 
                                 var _Wrap = jQuery('.recom_lec_slider'),
                                     _visualSlider = jQuery(_Wrap).bxSlider({
-                                        autoHover: true,
-                                        pager: false,
-                                        slideWidth: 384,
-                                        slideMargin: 24,
-                                        maxSlides:3,
-                                        moveSlides: 1,
-                                        touchEnabled: false,    // false: PC 클릭 가능
-                                        nextSelector: jQuery('.recom_lec_list .dir_controll .next'),
-                                        prevSelector: jQuery('.recom_lec_list .dir_controll .prev')
+                                        speed: 500,
+                                        auto: true,
+                                        infiniteLoop: true,
+                                        controls: false
                                     });
                                     
                                 
@@ -910,7 +787,6 @@
                     </div>
 
 
-                  
                 </div>
 
                 <!--신규 오픈 강좌-->
@@ -1017,7 +893,7 @@
                                         _current.text(newIndex + 1);
                                     }
                                 });
-                            jQuery('.slider_controll .total', _Wrap).text(_lecSlider.getSlideCount() / 3);
+                            
                         }());
                     </script>
                 </div>
@@ -1028,116 +904,57 @@
         <!--footer-->
         <footer class="eduon_footer">
             <div class="footer_wrap">
-                <div class="footer_flex">
-                    <div class="company_info">
-                        <em class="company_nm">(주) 세진에듀</em>
-                        <ul class="info_list">
-                            <li>대표이사 : 이재헌 | 개인정보책임자 : 박명식 (sjedu04@nate.com)</li>
-                            <li>사업자등록번호 : 304-81-27235 [사업자 정보확인]</li>
-                            <li>통신판매업신고 : 2021-서울성동-01578</li>
-                            <li>출판사 신고 : 도서출판 세진에듀 (제2008-1호)</li>
-                            <li>소재지 : 서울특별시 성동구 광나루로8길31(성수동2가) SK V1 2동 1206호</li>
-                            <li>기업부설연구소 : 강원도 원주시 지정면 신지정로 212, 퍼스트프라자 702호</li>
-                        </ul>
-                    </div>
-                    <ul class="footer_nav">
-                        <li>
-                            <a href="#">회사소개</a>
-                            <ul>
-                                <li><a href="#">세진에듀 소개</a></li>
-                                <li><a href="#">회사연혁</a></li>
-                                <li><a href="#">비전과 미션</a></li>
-                                <li><a href="#">사회환원</a></li>
-                                <li><a href="#">미디어</a></li>
-                                <li><a href="#">오시는 길</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">강의제작지원센터</a>
-                            <ul>
-                                <li><a href="#">강사모집 안내</a></li>
-                                <li><a href="#">강의개설 안내</a></li>
-                                <li><a href="#">브랜드 입점</a></li>
-                                <li><a href="#">스튜디오 소개</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">문제은행</a>
-                            <ul>
-                                <li><a href="#">기출문제</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">교재몰</a>
-                            <ul>
-                                <li><a href="#">교재구매</a></li>
-                                <li><a href="#">교재공지</a></li>
-                                <li><a href="#">교재문의</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">평생교육</a>
-                            <ul>
-                                <li><a href="">전체강좌</a></li>
-                                <li><a href="">공무원</a></li>
-                                <li><a href="">자격증</a></li>
-                                <li><a href="">IT&amp;Software</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">학습지원센터</a>
-                            <ul>
-                                <li><a href="#">공지사항</a></li>
-                                <li><a href="#">1:1 상담게시판</a></li>
-                                <li><a href="#">입금/결제 문의</a></li>
-                                <li><a href="#">동영상 재생 문의</a></li>
-                                <li><a href="#">공동구매 신청</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">필수프로그램</a></li>
-                            </ul>
-                        </li>
+                <div class="footer_family">
+                    <a href="#">Family site <i class="xi-angle-up"></i></a>
+                    <ul>
+                        <li><a href="/yst">에듀온 유상통</a></li>
+                        <li><a href="/army">에듀온 군무원</a></li>
+                        <li><a href="/official">에듀온 전산직</a></li>
+                        <li><a href="/info">에듀온 정보처리</a></li>
                     </ul>
-
-                    <a href="#TOP" class="anchor_top"><i class="xi-arrow-up"><span class="hidden">위로</span></i></a>
                 </div>
+                <ul class="contact_link">
+                    <li><a href="#">강의제작 지원센터</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                </ul>
+
                 <div class="company_contact">
                     <em>대표 전화</em>
                     <div class="phone_number">
                         <tel href="1599-9470">1599-9470</tel>
                         <span>평일 9:30 - 17:30 (토, 일, 공휴일 휴무)</span>
                     </div>
-                    <div class="contact_link">
-                        <a href="#">강의제작지원센터</a>
-                        <a href="#">제휴문의</a>
-                    </div>
                 </div>
-                <div class="footer_flex">
-                    <ul class="policy_link">
-                        <li><a href="#">사이트 이용약관</a></li>
-                        <li><a href="#">개인정보취급방침</a></li>
-                        <li><a href="#">이메일무단수집거부</a></li>
-                        <li><a href="#">제휴문의</a></li>
-                        <li><a href="#"><b>강의제작 지원센터</b></a></li>
+
+                <div class="social_link">
+                    <ul class="sns_link">
+                        <li><a href="#"><i class="xi-youtube-play"><span class="hidden">유투브</span></i></a></li>
+                        <li><a href="#"><i class="xi-instagram"><span class="hidden">인스타 그램</span></i></a></li>
+                        <li><a href="#" class="blog">b <span class="hidden">네이버 블로그</span></a></li>
+                        <li><a href="#"><i class="xi-cafe"><span class="hidden">네이버 카페</span></i></a></li>
+                        <li><a href="#"><i class="xi-naver-square"><span class="hidden">네이버 TV</span></i></a></li>
                     </ul>
-                    <div class="social_link">
-                        <ul class="sns_link">
-                            <li><a href="#"><i class="xi-youtube-play"><span class="hidden">유투브</span></i></a></li>
-                            <li><a href="#"><i class="xi-instagram"><span class="hidden">인스타 그램</span></i></a></li>
-                            <li><a href="#" class="blog">b <span class="hidden">네이버 블로그</span></a></li>
-                            <li><a href="#"><i class="xi-cafe"><span class="hidden">네이버 카페</span></i></a></li>
-                            <li><a href="#"><i class="xi-naver-square"><span class="hidden">네이버 TV</span></i></a></li>
-                        </ul>
-                        <div class="footer_family">
-                            <a href="#">Family site <i class="xi-angle-up-min"></i></a>
-                            <ul>
-                                <li><a href="/yst">에듀온 유상통</a></li>
-                                <li><a href="/army">에듀온 군무원</a></li>
-                                <li><a href="/official">에듀온 전산직</a></li>
-                                <li><a href="/info">에듀온 정보처리</a></li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
+
+                <div class="company_info">
+                    <em class="company_nm">(주) 세진에듀</em>
+                    <ul class="info_list">
+                        <li>대표이사 : 이재헌 | 개인정보책임자 : 박명식 (sjedu04@nate.com)</li>
+                        <li>사업자등록번호 : 304-81-27235 [사업자 정보확인]</li>
+                        <li>통신판매업신고 : 2021-서울성동-01578</li>
+                        <li>출판사 신고 : 도서출판 세진에듀 (제2008-1호)</li>
+                        <li>소재지 : 서울특별시 성동구 광나루로8길31(성수동2가) SK V1 2동 1206호</li>
+                        <li>기업부설연구소 : 강원도 원주시 지정면 신지정로 212, 퍼스트프라자 702호</li>
+                    </ul>
+                </div>
+                
+
+                <ul class="policy_link">
+                    <li><a href="#">사이트 이용약관</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                </ul>
+                
             </div>
         </footer>
         <!--//footer-->
