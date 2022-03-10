@@ -1,4 +1,5 @@
 
+
 /*메인 비쥬얼*/
 .main_visual{position: relative;}
 .fleximg{width:100%}
@@ -28,6 +29,7 @@
 .hotnew_section > h3{font-size:3rem; color:#000; text-align: center; letter-spacing: -0.01em; font-weight: 800; margin-bottom: 2.6rem;}
 .hotnew_wrap{ position:relative; z-index: 2; width:65%; margin: 0 auto;}
 .hotnew_wrap .bx-viewport{overflow:visible !important;}
+.hotnew_wrap .hot_scroll{left:5%}
 .hotnew_wrap .newitem {transform: scale(0.9); opacity:0.2 ; transition: all 0.3s; box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);}
 .hotnew_wrap .newitem.on{transform: scale(1); opacity:1 ;}
 .hotnew_wrap .newitem  img{width:100%}
@@ -61,7 +63,7 @@
 .main_review_section{ padding:6rem 1.6rem; position: relative;}
 .main_review_grid > h3{font-size:3rem; color:#000; text-align: center; letter-spacing: -0.01em; margin-bottom: 2.2rem;}
 
-.review_tab{margin-top: 3.6rem;}
+.review_tab{margin: 3.6rem 0.8rem 0;}
 .review_tab > ul{display: flex;}
 .review_tab > ul > li{margin-right:1.6rem;}
 .review_tab > ul > li > a{display: block; font-size:18px; font-weight: 600; color:#909090; line-height: 25px;}
@@ -70,10 +72,10 @@
 .main_review_wrap{position: relative; margin-top: 3rem;}
 .main_review_wrap .more{ font-size:1.4rem; color: #FF5050; border:1px solid #FF5050; font-weight: 800; line-height: 4rem; display: block; margin-top: 3rem;  text-align: center; border-radius: 2rem;}
 .review_item{width:100%;   background: #FFF;}
-.review_item > a{display: block; padding:2rem 1.5rem; color:#4E4E4E ;line-height:1.5; display: flex; flex-flow: column; box-shadow: 0.2rem 0.2rem 0.8rem 0.2rem rgba(0, 0, 0, 0.1); margin: 0.8rem; border-radius: 0.5rem; height:25rem}
+.review_item > a{ padding:2rem 1.5rem 0; color:#4E4E4E ;line-height:1.5; display: flex; flex-flow: column; box-shadow: 0.2rem 0.2rem 0.8rem 0.2rem rgba(0, 0, 0, 0.1); margin: 0.8rem; border-radius: 0.5rem; height:25rem; }
 .review_item > a > em{display: block; font-size:1.8rem; color:#000; line-height: 1.25; font-weight:700 ; margin-bottom: 2.7rem;}
 .review_item .cont{min-height:6rem ;}
-.review_item .user{margin-top: 2.5rem;}
+.review_item .user{margin-top: 2rem;}
 .review_item .cont > b{color: #FF5050;}
 .review_item .user > b{display: block;}
 .main_review_wrap .bx-controls{position: relative; margin-top: 2.3rem;}
