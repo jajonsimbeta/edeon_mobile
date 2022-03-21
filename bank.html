@@ -20,99 +20,115 @@
 <body>
     <div class="eduon_wrap">
         <!--header-->
-        <header class="eduon_header">
-            <div class="header_wrap">
-                <div class="header_grid">
-                    <h1 class="eduon_logo"><a href="/">에듀온</a></h1>
-                    <!--gnb-->
-                    <nav class="edu_gnb">
-                        <ul class="main_nav">
-                            <li>
-                                <a href="#" class="active">회사소개</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">세진에듀 소개</a></li>
-                                    <li><a href="#">회사연혁</a></li>
-                                    <li><a href="#">비전과 미션</a></li>
-                                    <li><a href="#">사회환원</a></li>
-                                    <li><a href="#">미디어</a></li>
-                                    <li><a href="#">오시는 길</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">강의제작지원</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">강사모집 안내</a></li>
-                                    <li><a href="#">강의개설 안내</a></li>
-                                    <li><a href="#">브랜드 입점</a></li>
-                                    <li><a href="#">스튜디오 소개</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="#">문제은행</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">기출문제</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">교재몰</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">교재구매</a></li>
-                                    <li><a href="#">교재공지</a></li>
-                                    <li><a href="#">교재문의</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">평생교육</a>
-                                <ul class="sub_nav">
-                                    <li><a href="">전체강좌</a></li>
-                                    <li><a href="">공무원</a></li>
-                                    <li><a href="">자격증</a></li>
-                                    <li><a href="">IT&amp;Software</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">학습지원센터</a>
-                                <ul class="sub_nav">
-                                    <li><a href="#">공지사항</a></li>
-                                    <li><a href="#">1:1 상담게시판</a></li>
-                                    <li><a href="#">입금/결제 문의</a></li>
-                                    <li><a href="#">동영상 재생 문의</a></li>
-                                    <li><a href="#">공동구매 신청</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">필수프로그램</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                    <!--gnb-->
-                    <div class="member_info">
-                        <!--로그아웃 상태-->
-                        <div class="state_logout">
-                            <ul>
-                                <li><a href="#">로그인</a></li>
-                                <li><a href="#">회원가입</a></li>
-                            </ul>
-                        </div>
-                        <!--로그인 상태
-                        <div class="state_login">
-                            <ul>
-                                <li><a href="#">내 강의실</a></li>
-                                <li class="myname"><a href="#">김소민님 <i class="xi-angle-down-min"></i></a>
-                                    <div class="my_info">
-                                        <ul>
-                                            <li><a href="#">내 정보</a></li>
-                                            <li><a href="#">쪽지함</a></li>
-                                            <li><a href="#">로그아웃</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="arlim on"><a href="#"><i class="xi-bell-o"></i><i class="xi-bell"></i><span class="hidden">알림</span></a></li>
-                            </ul>
-                        </div>-->
-                    </div>
-                </div>
+        <header>
+            <div class="eduon_header">
+                <h1 class="eduon_logo"><a href="/">에듀온</a></h1>
+                <button class="menu_toggle" title="메뉴열고 닫기"><i class="xi-bars"></i></button>
+                <button class="info_toggle" title="메뉴열고 닫기">개인정보 메뉴</button>
             </div>
+            <!--gnb-->
+            <nav class="edu_gnb">
+                <div class="menubar">
+                    <span class="logo"><img src="images/eduon_logo_w.png" alt="에듀온"></span>
+                    <button class="menu_close"><i class="xi-close"><span class="hidden">닫기</span></i></button>
+                </div>
+                <ul class="main_nav">
+                    <li>
+                        <a href="#">회사소개</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">세진에듀 소개</a></li>
+                            <li><a href="#">회사연혁</a></li>
+                            <li><a href="#">비전과 미션</a></li>
+                            <li><a href="#">사회환원</a></li>
+                            <li><a href="#">미디어</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">강의제작지원</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">강사모집 안내</a></li>
+                            <li><a href="#">강의개설 안내</a></li>
+                            <li><a href="#">브랜드 입점</a></li>
+                            <li><a href="#">스튜디오 소개</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">문제은행</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">기출문제</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">교재몰</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">교재구매</a></li>
+                            <li><a href="#">교재공지</a></li>
+                            <li><a href="#">교재문의</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">평생교육</a>
+                        <ul class="sub_nav">
+                            <li><a href="">전체강좌</a></li>
+                            <li><a href="">공무원</a></li>
+                            <li><a href="">자격증</a></li>
+                            <li><a href="">IT&amp;Software</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">학습지원센터</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">1:1 상담게시판</a></li>
+                            <li><a href="#">입금/결제 문의</a></li>
+                            <li><a href="#">동영상 재생 문의</a></li>
+                            <li><a href="#">공동구매 신청</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">필수프로그램</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!--gnb-->
+            <div class="member_info">
+                <div class="menubar">
+                    <span class="logo"><img src="images/eduon_logo_w.png" alt="에듀온"></span>
+                    <button class="menu_close"><i class="xi-close"><span class="hidden">닫기</span></i></button>
+                </div>
+                <ul class="main_nav">
+                    <li>
+                        <a href="#" class="active">수강/결제 관리 </a>
+                        <ul class="sub_nav">
+                            <li><a href="#">수강강좌 정보</a></li>
+                            <li><a href="#">결제내역/교재배송 확인</a></li>
+                            <li><a href="#">증빙서류 발급 신청</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">상담내역 관리</a>
+                        <ul class="sub_nav">
+                            <li><a href="#">게시판 문의 내역</a></li>
+                            <li><a href="#">학습질문/답변 내역</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">쪽지함  <b class="new">N</b></a>
+                        <ul class="sub_nav">
+                            <li><a href="#">받은 쪽지함  <b class="new">N</b></a></li>
+                            <li><a href="#">보낸 쪽지함</a></li>
+                            <li><a href="#">쪽지 보내기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">개인정보관리</a>
+                    
+                    </li>
+                </ul>
+            </div>
+            <div class="dim"></div>
         </header>
         <!--// header-->
 
@@ -172,1412 +188,7 @@
                         </div>
 
 
-                        <div class="bank-list-wrap">
-                            <dl class="bank-listbox">
-                                <dt><a href="#bank_area_1">9급 공무원 <i class="xi-plus-min"></i></a></dt>
-                                <dd>
-                                    <ul>
-                                        <li><a href="/itembank/subjectlist/9">우정사업본부 계리직</a></li>
-                                        <li><a href="/itembank/subjectlist/11">9급 전산직 컴퓨터일반</a></li>
-                                        <li><a href="/itembank/subjectlist/18">9급 공무원 한국사</a></li>
-                                        <li><a href="/itembank/subjectlist/137">9급 계리직 우편및금융상식</a></li>
-                                        <li><a href="/itembank/subjectlist/15">9급 전산직 프로그래밍언어론</a></li>
-                                        <li><a href="/itembank/subjectlist/17">9급 전산직 정보보호론</a></li>
-                                        <li><a href="/itembank/subjectlist/67">9급 전산직 정보시스템보안</a></li>
-                                        <li><a href="/itembank/subjectlist/68">9급 전산직 네트워크보안</a></li>
-                                        <li><a href="/itembank/subjectlist/19">9급 공무원 국어</a></li>
-                                        <li><a href="/itembank/subjectlist/20">9급 공무원 영어</a></li>
-                                        <li><a href="/itembank/subjectlist/21">9급 공무원 사회</a></li>
-                                        <li><a href="/itembank/subjectlist/22">9급 공무원 행정학개론</a></li>
-                                        <li><a href="/itembank/subjectlist/24">9급 공무원 행정법총론</a></li>
-                                        <li><a href="/itembank/subjectlist/32">9급 공무원 사회복지학개론</a></li>
-                                        <li><a href="/itembank/subjectlist/30">9급 공무원 형법</a></li>
-                                        <li><a href="/itembank/subjectlist/26">9급 공무원 형법총론</a></li>
-                                        <li><a href="/itembank/subjectlist/27">9급 공무원 형사소송법</a></li>
-                                        <li><a href="/itembank/subjectlist/29">9급 공무원 형사소송법개론</a></li>
-                                        <li><a href="/itembank/subjectlist/25">9급 공무원 교정학개론</a></li>
-                                        <li><a href="/itembank/subjectlist/23">9급 공무원 세법개론</a></li>
-                                        <li><a href="/itembank/subjectlist/28">9급 공무원 관세법개론</a></li>
-                                        <li><a href="/itembank/subjectlist/31">9급 공무원 국제법개론</a></li>
-                                        <li><a href="/itembank/subjectlist/98">9급 공무원 교육학개론</a></li>
-                                        <li><a href="/itembank/subjectlist/105">9급 공무원 공직선거법</a></li>
-                                        <li><a href="/itembank/subjectlist/172">9급 공무원 정보학개론 </a></li>
-                                        <li><a href="/itembank/subjectlist/171">자동차구조원리 및 도로교통법규</a></li>
-                                        <li><a href="/itembank/subjectlist/134">9급 군무원 국어</a></li>
-                                        <li><a href="/itembank/subjectlist/135">9급 군무원 행정법</a></li>
-                                        <li><a href="/itembank/subjectlist/136">9급 군무원 행정학</a></li>
-                                        <li><a href="/itembank/subjectlist/153">9급 군무원 경영학</a></li>
-                                        <li><a href="/itembank/subjectlist/154">9급 군무원 컴퓨터일반</a></li>
-                                        <li><a href="/itembank/subjectlist/155">9급 군무원 정보보호론</a></li>
-                                        <li><a href="/itembank/subjectlist/156">9급 군무원 자료조직론</a></li>
-                                        <li><a href="/itembank/subjectlist/157">9급 군무원 정보봉사론</a></li>
-                                        <li><a href="/itembank/subjectlist/158">9급 군무원 형법</a></li>
-                                        <li><a href="/itembank/subjectlist/159">9급 군무원 형사소송법</a></li>
-                                    </ul>
-                                </dd>
-                            </dl>
-                            <dl class="bank-listbox">
-                                <dt><a href="#bank_area_2">7급 공무원 <i class="xi-plus-min"></i></a></dt>
-                                <dd>
-                                    <ul>
-                                        <li><a href="/itembank/subjectlist/1">7급 전산직 정보보호론</a></li>
-                                        <li><a href="/itembank/subjectlist/2">7급 전산직 데이터베이스론</a></li>
-                                        <li><a href="/itembank/subjectlist/3">7급 전산직 자료구조론</a></li>
-                                        <li><a href="/itembank/subjectlist/4">7급 전산직 소프트웨어공학</a></li>
-                                        <li><a href="/itembank/subjectlist/5">7급 공무원 국어</a></li>
-                                        <li><a href="/itembank/subjectlist/6">7급 공무원 한국사</a></li>
-                                        <li><a href="/itembank/subjectlist/7">7급 공무원 영어</a></li>
-                                        <li><a href="/itembank/subjectlist/8">7급 공무원 행정학</a></li>
-                                        <li><a href="/itembank/subjectlist/10">7급 공무원 헌법</a></li>
-                                        <li><a href="/itembank/subjectlist/12">7급 공무원 행정법</a></li>
-                                        <li><a href="/itembank/subjectlist/14">7급 공무원 경제학</a></li>
-                                        <li><a href="/itembank/subjectlist/16">7급 공무원 세법</a></li>
-                                        <li><a href="/itembank/subjectlist/79">7급 공무원 무역학</a></li>
-                                        <li><a href="/itembank/subjectlist/80">7급 공무원 국제법</a></li>
-                                        <li><a href="/itembank/subjectlist/81">7급 공무원 관세법</a></li>
-                                        <li><a href="/itembank/subjectlist/82">7급 공무원 교정학</a></li>
-                                        <li><a href="/itembank/subjectlist/83">7급 공무원 경영학</a></li>
-                                        <li><a href="/itembank/subjectlist/84">7급 공무원 조경학</a></li>
-                                        <li><a href="/itembank/subjectlist/85">7급 공무원 통계학</a></li>
-                                        <li><a href="/itembank/subjectlist/104">7급 공무원 공직선거법</a></li>
-                                        <li><a href="/itembank/subjectlist/150">7급 공무원 상황판단</a></li>
-                                        <li><a href="/itembank/subjectlist/151">7급 공무원 언어논리</a></li>
-                                        <li><a href="/itembank/subjectlist/152">7급 공무원 자료해석</a></li>
-                                        <li><a href="/itembank/subjectlist/160">7급 군무원 경영학</a></li>
-                                        <li><a href="/itembank/subjectlist/161">7급 군무원 국어</a></li>
-                                        <li><a href="/itembank/subjectlist/162">7급 군무원 데이터베이스론</a></li>
-                                        <li><a href="/itembank/subjectlist/163">7급 군무원 자료구조조론</a></li>
-                                        <li><a href="/itembank/subjectlist/164">7급 군무원 정보보호론</a></li>
-                                        <li><a href="/itembank/subjectlist/165">7급 군무원 행정법</a></li>
-                                        <li><a href="/itembank/subjectlist/166">7급 군무원 행정학</a></li>
-                                        <li><a href="/itembank/subjectlist/167">7급 군무원 형법</a></li>
-                                        <li><a href="/itembank/subjectlist/168">7급 군무원 형사소송법</a></li>
-                                        <li><a href="/itembank/subjectlist/169">7급 군무원 경제학</a></li>
-                                    </ul>
-                                </dd>
-                            </dl>
-                            <dl class="bank-listbox">
-                                <dt><a href="#bank_area_5">경찰&amp;소방 공무원 <i class="xi-plus-min"></i></a></dt>
-                                <dd>
-                                    <ul>
-                                        <li><a href="/itembank/subjectlist/86">경찰공무원 경찰학개론</a></li>
-                                        <li><a href="/itembank/subjectlist/87">경찰공무원 형법</a></li>
-                                        <li><a href="/itembank/subjectlist/88">경찰공무원 행정법</a></li>
-                                        <li><a href="/itembank/subjectlist/89">경찰공무원 한국사</a></li>
-                                        <li><a href="/itembank/subjectlist/90">경찰공무원 영어</a></li>
-                                        <li><a href="/itembank/subjectlist/91">경찰공무원 형사소송법</a></li>
-                                        <li><a href="/itembank/subjectlist/92">경찰공무원 국어</a></li>
-                                        <li><a href="/itembank/subjectlist/93">경찰공무원 사회</a></li>
-                                        <li><a href="/itembank/subjectlist/94">경찰공무원 수사</a></li>
-                                        <li><a href="/itembank/subjectlist/138">경찰공무원 행정학</a></li>
-                                        <li><a href="/itembank/subjectlist/125">경찰공무원(간부) 정보보호론</a></li>
-                                        <li><a href="/itembank/subjectlist/143">경찰(경채) 정보보호론</a></li>
-                                        <li><a href="/itembank/subjectlist/144">경찰(경채) 시스템네트워크보안</a></li>
-                                        <li><a href="/itembank/subjectlist/145">경찰(경채) 정보보안관리및법규</a></li>
-                                        <li><a href="/itembank/subjectlist/146">경찰(경채) 데이터베이스론</a></li>
-                                        <li><a href="/itembank/subjectlist/110">소방공무원 소방학개론</a></li>
-                                        <li><a href="/itembank/subjectlist/111">소방공무원 행정법총론</a></li>
-                                        <li><a href="/itembank/subjectlist/112">소방공무원 소방관계법규</a></li>
-                                        <li><a href="/itembank/subjectlist/113">소방공무원 국어</a></li>
-                                        <li><a href="/itembank/subjectlist/114">소방공무원 한국사</a></li>
-                                        <li><a href="/itembank/subjectlist/115">소방공무원 영어</a></li>
-                                        <li><a href="/itembank/subjectlist/116">소방공무원 사회</a></li>
-                                        <li><a href="/itembank/subjectlist/117">소방공무원 과학</a></li>
-                                        <li><a href="/itembank/subjectlist/118">소방공무원 수학</a></li>
-                                        <li><a href="/itembank/subjectlist/121">해양경찰 컴퓨터일반</a></li>
-                                        <li><a href="/itembank/subjectlist/122">해양경찰 네트워크보안</a></li>
-                                        <li><a href="/itembank/subjectlist/123">해양경찰 정보시스템보안</a></li>
-                                        <li><a href="/itembank/subjectlist/173">해양경찰 행정학</a></li>
-                                        <li><a href="/itembank/subjectlist/174">해양경찰 행정법</a></li>
-                                        <li><a href="/itembank/subjectlist/175">해양경찰 한국사</a></li>
-                                        <li><a href="/itembank/subjectlist/176">해양경찰 형법</a></li>
-                                        <li><a href="/itembank/subjectlist/177">해양경찰 형사소송법</a></li>
-                                        <li><a href="/itembank/subjectlist/183">해양경찰 국어</a></li>
-                                        <li><a href="/itembank/subjectlist/184">해양경찰 영어</a></li>
-                                        <li><a href="/itembank/subjectlist/185">해양경찰 해양경찰학개론</a></li>
-                                        <li><a href="/itembank/subjectlist/186">해양경찰 사회</a></li>
-                                    </ul>
-                                </dd>
-                            </dl>
-                            <dl class="bank-listbox">
-                                <dt><a href="#bank_area_3">자격증 필기 <i class="xi-plus-min"></i></a></dt>
-                                <dd>
-                                    <ul>
-                                        <li><a href="/itembank/subjectlist/132">정보처리기사 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/46">(구) 정보처리기사 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/48">정보처리산업기사 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/52">사무자동화 산업기사 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/55">컴퓨터활용능력 1급 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/56">컴퓨터활용능력 2급 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/51">정보처리 기능사 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/133">워드프로세서 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/59">(구)워드프로세서 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/64">전자계산기조직응용기사</a></li>
-                                        <li><a href="/itembank/subjectlist/127">전자계산기기사</a></li>
-                                        <li><a href="/itembank/subjectlist/119">정보보안기사</a></li>
-                                        <li><a href="/itembank/subjectlist/69">전기기능사 필기</a></li>
-                                        <li><a href="/itembank/subjectlist/63">멀티미디어콘텐츠제작전문가</a></li>
-                                        <li><a href="/itembank/subjectlist/120">정보시스템감리사</a></li>
-                                        <li><a href="/itembank/subjectlist/95">네트워크관리사 1급</a></li>
-                                        <li><a href="/itembank/subjectlist/126">네트워크관리사 2급</a></li>
-                                        <li><a href="/itembank/subjectlist/130">리눅스마스터 1급</a></li>
-                                        <li><a href="/itembank/subjectlist/147">리눅스마스터 2급</a></li>
-                                        <li><a href="/itembank/subjectlist/131">인터넷정보관리사 2급</a></li>
-                                        <li><a href="/itembank/subjectlist/128">인터넷보안전문가 2급</a></li>
-                                        <li><a href="/itembank/subjectlist/96">PC 정비사 1급</a></li>
-                                        <li><a href="/itembank/subjectlist/149">PC정비사 2급</a></li>
-                                        <li><a href="/itembank/subjectlist/108">전자상거래운용사</a></li>
-                                        <li><a href="/itembank/subjectlist/180">정보통신기사</a></li>
-                                        <li><a href="/itembank/subjectlist/179">정보통신산업기사</a></li>
-                                        <li><a href="/itembank/subjectlist/97">자동차정비기사</a></li>
-                                        <li><a href="/itembank/subjectlist/170">자동차정비산업기사</a></li>
-                                        <li><a href="/itembank/subjectlist/109">소방설비기사(기계분야)</a></li>
-                                        <li><a href="/itembank/subjectlist/188">전기기사</a></li>
-                                        <li><a href="/itembank/subjectlist/181">전자산업기사</a></li>
-                                        <li><a href="/itembank/subjectlist/187">행정사</a></li>
-                                        <li><a href="/itembank/subjectlist/182">텔레마케팅관리사</a></li>
-                                        <li><a href="/itembank/subjectlist/70">주택관리사보 1차</a></li>
-                                        <li><a href="/itembank/subjectlist/71">주택관리사보 2차</a></li>
-                                        <li><a href="/itembank/subjectlist/65">공인중개사 자격시험 1차</a></li>
-                                        <li><a href="/itembank/subjectlist/66">공인중개사 자격시험 2차</a></li>
-                                        <li><a href="/itembank/subjectlist/72">사회복지사 1급 (1교시)</a></li>
-                                        <li><a href="/itembank/subjectlist/73">사회복지사 1급 (2교시)</a></li>
-                                        <li><a href="/itembank/subjectlist/74">사회복지사 1급 (3교시)</a></li>
-                                        <li><a href="/itembank/subjectlist/75">청소년상담사 3급 (1교시)</a></li>
-                                        <li><a href="/itembank/subjectlist/76">청소년상담사 3급 (2교시)</a></li>
-                                        <li><a href="/itembank/subjectlist/139">(구) 정보처리-데이터베이스</a></li>
-                                        <li><a href="/itembank/subjectlist/140">(구) 정보처리-데이터통신</a></li>
-                                        <li><a href="/itembank/subjectlist/141">(구) 정보처리-소프트웨어공학</a></li>
-                                        <li><a href="/itembank/subjectlist/142">(구) 정보처리-운영체제</a></li>
-                                    </ul>
-                                </dd>
-                            </dl>
-                            <dl class="bank-listbox">
-                                <dt><a href="#bank_area_4">자격증 실기 <i class="xi-plus-min"></i></a></dt>
-                                <dd>
-                                    <ul>
-                                        <li><a href="/itembank/subjectlist/33">정보처리기사 실기</a></li>
-                                        <li><a href="/itembank/subjectlist/34">정보처리산업기사 실기</a></li>
-                                        <li><a href="/itembank/subjectlist/35">사무자동화 산업기사 실기</a></li>
-                                        <li><a href="/itembank/subjectlist/38">정보처리 기능사 실기</a></li>
-                                        <li><a href="/itembank/subjectlist/36">컴퓨터활용능력 1급 실기</a></li>
-                                        <li><a href="/itembank/subjectlist/37">컴퓨터활용능력 2급 실기</a></li>
-                                    </ul>
-                                </dd>
-                            </dl>
-                        </div>
-
-
-                        <div class="modal_bank_pop" style="display: none;">
-                            <div class="tbl-bank-wrap">
-                                <div class="tbl-bank" id="bank_area_1">
-                                    <table>
-                                        <caption></caption>
-                                        <colgroup>
-                                            <col width="*">
-                                            <col width="105px;">
-                                            <col width="80px;">
-                                            <col width="80px;">
-                                        </colgroup>
-                                        <thead>
-                                            <tr>
-                                                <th scope="col"><span class="title">9급 공무원</span></th>
-                                                <th scope="col">총 입력문제 수</th>
-                                                <th scope="col">해설 유무</th>
-                                                <th scope="col">동영상해설</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/9">우정사업본부 계리직</a>
-                                                </td>
-                                                <td>480</td>
-                                                <td>O</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/11">9급 전산직 컴퓨터일반</a>
-                                                </td>
-                                                <td>960</td>
-                                                <td>O</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/18">9급 공무원 한국사</a>
-                                                </td>
-                                                <td>1,255</td>
-                                                <td>O</td>
-                                                <td>O</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/137">9급 계리직
-                                                        우편및금융상식</a></td>
-                                                <td>140</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/15">9급 전산직
-                                                        프로그래밍언어론</a></td>
-                                                <td>220</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/17">9급 전산직 정보보호론</a>
-                                                </td>
-                                                <td>560</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/67">9급 전산직
-                                                        정보시스템보안</a></td>
-                                                <td>120</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/68">9급 전산직 네트워크보안</a>
-                                                </td>
-                                                <td>120</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/19">9급 공무원 국어</a>
-                                                </td>
-                                                <td>1,010</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/20">9급 공무원 영어</a>
-                                                </td>
-                                                <td>950</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/21">9급 공무원 사회</a>
-                                                </td>
-                                                <td>540</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/22">9급 공무원 행정학개론</a>
-                                                </td>
-                                                <td>600</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/24">9급 공무원 행정법총론</a>
-                                                </td>
-                                                <td>580</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/32">9급 공무원
-                                                        사회복지학개론</a></td>
-                                                <td>480</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/30">9급 공무원 형법</a>
-                                                </td>
-                                                <td>295</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/26">9급 공무원 형법총론</a>
-                                                </td>
-                                                <td>240</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/27">9급 공무원 형사소송법</a>
-                                                </td>
-                                                <td>295</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/29">9급 공무원
-                                                        형사소송법개론</a></td>
-                                                <td>220</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/25">9급 공무원 교정학개론</a>
-                                                </td>
-                                                <td>240</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/23">9급 공무원 세법개론</a>
-                                                </td>
-                                                <td>240</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/28">9급 공무원 관세법개론</a>
-                                                </td>
-                                                <td>240</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/31">9급 공무원 국제법개론</a>
-                                                </td>
-                                                <td>240</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/98">9급 공무원 교육학개론</a>
-                                                </td>
-                                                <td>260</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/105">9급 공무원 공직선거법</a>
-                                                </td>
-                                                <td>160</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/172">9급 공무원 정보학개론
-                                                    </a></td>
-                                                <td>200</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/171">자동차구조원리 및
-                                                        도로교통법규</a></td>
-                                                <td>140</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/134">9급 군무원 국어</a>
-                                                </td>
-                                                <td>50</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/135">9급 군무원 행정법</a>
-                                                </td>
-                                                <td>50</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/136">9급 군무원 행정학</a>
-                                                </td>
-                                                <td>50</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/153">9급 군무원 경영학</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/154">9급 군무원 컴퓨터일반</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/155">9급 군무원 정보보호론</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>O</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/156">9급 군무원 자료조직론</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/157">9급 군무원 정보봉사론</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/158">9급 군무원 형법</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/159">9급 군무원 형사소송법</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="tbl-bank" id="bank_area_2">
-                                    <table>
-                                        <caption></caption>
-                                        <colgroup>
-                                            <col width="*">
-                                            <col width="105px;">
-                                            <col width="80px;">
-                                            <col width="80px;">
-                                        </colgroup>
-                                        <thead>
-                                            <tr>
-                                                <th scope="col"><span class="title">7급 공무원</span></th>
-                                                <th scope="col">총 입력문제 수</th>
-                                                <th scope="col">해설 유무</th>
-                                                <th scope="col">동영상해설</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/1">7급 전산직 정보보호론</a>
-                                                </td>
-                                                <td>225</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/2">7급 전산직 데이터베이스론</a>
-                                                </td>
-                                                <td>365</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/3">7급 전산직 자료구조론</a>
-                                                </td>
-                                                <td>365</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/4">7급 전산직 소프트웨어공학</a>
-                                                </td>
-                                                <td>365</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/5">7급 공무원 국어</a></td>
-                                                <td>440</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/6">7급 공무원 한국사</a>
-                                                </td>
-                                                <td>420</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/7">7급 공무원 영어</a></td>
-                                                <td>340</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/8">7급 공무원 행정학</a>
-                                                </td>
-                                                <td>465</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/10">7급 공무원 헌법</a>
-                                                </td>
-                                                <td>445</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/12">7급 공무원 행정법</a>
-                                                </td>
-                                                <td>505</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/14">7급 공무원 경제학</a>
-                                                </td>
-                                                <td>300</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/16">7급 공무원 세법</a>
-                                                </td>
-                                                <td>225</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/79">7급 공무원 무역학</a>
-                                                </td>
-                                                <td>185</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/80">7급 공무원 국제법</a>
-                                                </td>
-                                                <td>185</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/81">7급 공무원 관세법</a>
-                                                </td>
-                                                <td>185</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/82">7급 공무원 교정학</a>
-                                                </td>
-                                                <td>185</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/83">7급 공무원 경영학</a>
-                                                </td>
-                                                <td>225</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/84">7급 공무원 조경학</a>
-                                                </td>
-                                                <td>185</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/85">7급 공무원 통계학</a>
-                                                </td>
-                                                <td>160</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/104">7급 공무원 공직선거법</a>
-                                                </td>
-                                                <td>165</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/150">7급 공무원 상황판단</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/151">7급 공무원 언어논리</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/152">7급 공무원 자료해석</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/160">7급 군무원 경영학</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/161">7급 군무원 국어</a>
-                                                </td>
-                                                <td>50</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/162">7급 군무원
-                                                        데이터베이스론</a></td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/163">7급 군무원
-                                                        자료구조조론</a></td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/164">7급 군무원 정보보호론</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/165">7급 군무원 행정법</a>
-                                                </td>
-                                                <td>50</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/166">7급 군무원 행정학</a>
-                                                </td>
-                                                <td>50</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/167">7급 군무원 형법</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/168">7급 군무원 형사소송법</a>
-                                                </td>
-                                                <td>25</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/169">7급 군무원 경제학</a>
-                                                </td>
-                                                <td>50</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="tbl-bank" id="bank_area_3">
-                                    <table>
-                                        <caption></caption>
-                                        <colgroup>
-                                            <col width="*">
-                                            <col width="105px;">
-                                            <col width="80px;">
-                                            <col width="80px;">
-                                        </colgroup>
-                                        <thead>
-                                            <tr>
-                                                <th scope="col"><span class="title">자격증 필기</span></th>
-                                                <th scope="col">총 입력문제 수</th>
-                                                <th scope="col">해설 유무</th>
-                                                <th scope="col">동영상해설</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/132">정보처리기사 필기</a>
-                                                </td>
-                                                <td>600</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/46">(구) 정보처리기사 필기</a>
-                                                </td>
-                                                <td>4,800</td>
-                                                <td>O</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/48">정보처리산업기사 필기</a>
-                                                </td>
-                                                <td>5,000</td>
-                                                <td>O</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/52">사무자동화 산업기사 필기</a>
-                                                </td>
-                                                <td>4,000</td>
-                                                <td>O</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/55">컴퓨터활용능력 1급 필기</a>
-                                                </td>
-                                                <td>3,180</td>
-                                                <td>O</td>
-                                                <td>O</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/56">컴퓨터활용능력 2급 필기</a>
-                                                </td>
-                                                <td>2,120</td>
-                                                <td>O</td>
-                                                <td>O</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/51">정보처리 기능사 필기</a>
-                                                </td>
-                                                <td>1,860</td>
-                                                <td>O</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/133">워드프로세서 필기</a>
-                                                </td>
-                                                <td>840</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/59">(구)워드프로세서 필기</a>
-                                                </td>
-                                                <td>2,340</td>
-                                                <td>O</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/64">전자계산기조직응용기사</a>
-                                                </td>
-                                                <td>2,100</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/127">전자계산기기사</a></td>
-                                                <td>800</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/119">정보보안기사</a></td>
-                                                <td>1,300</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/69">전기기능사 필기</a></td>
-                                                <td>1,140</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/63">멀티미디어콘텐츠제작전문가</a>
-                                                </td>
-                                                <td>2,060</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/120">정보시스템감리사</a>
-                                                </td>
-                                                <td>720</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/95">네트워크관리사 1급</a>
-                                                </td>
-                                                <td>960</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/126">네트워크관리사 2급</a>
-                                                </td>
-                                                <td>1,050</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/130">리눅스마스터 1급</a>
-                                                </td>
-                                                <td>1,000</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/147">리눅스마스터 2급</a>
-                                                </td>
-                                                <td>1,440</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/131">인터넷정보관리사 2급</a>
-                                                </td>
-                                                <td>1,280</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/128">인터넷보안전문가 2급</a>
-                                                </td>
-                                                <td>840</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/96">PC 정비사 1급</a>
-                                                </td>
-                                                <td>960</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/149">PC정비사 2급</a>
-                                                </td>
-                                                <td>1,150</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/108">전자상거래운용사</a>
-                                                </td>
-                                                <td>660</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/180">정보통신기사</a></td>
-                                                <td>2,300</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/179">정보통신산업기사</a>
-                                                </td>
-                                                <td>1,600</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/97">자동차정비기사</a></td>
-                                                <td>2,300</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/170">자동차정비산업기사</a>
-                                                </td>
-                                                <td>1,600</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/109">소방설비기사(기계분야)</a>
-                                                </td>
-                                                <td>1,440</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/188">전기기사</a></td>
-                                                <td>1,300</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/181">전자산업기사</a></td>
-                                                <td>960</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/187">행정사</a></td>
-                                                <td>435</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/182">텔레마케팅관리사</a>
-                                                </td>
-                                                <td>700</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/70">주택관리사보 1차</a>
-                                                </td>
-                                                <td>600</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/71">주택관리사보 2차</a>
-                                                </td>
-                                                <td>320</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/65">공인중개사 자격시험 1차</a>
-                                                </td>
-                                                <td>680</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/66">공인중개사 자격시험 2차</a>
-                                                </td>
-                                                <td>1,080</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/72">사회복지사 1급
-                                                        (1교시)</a></td>
-                                                <td>460</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/73">사회복지사 1급
-                                                        (2교시)</a></td>
-                                                <td>690</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/74">사회복지사 1급
-                                                        (3교시)</a></td>
-                                                <td>690</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/75">청소년상담사 3급
-                                                        (1교시)</a></td>
-                                                <td>860</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/76">청소년상담사 3급
-                                                        (2교시)</a></td>
-                                                <td>645</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/139">(구)
-                                                        정보처리-데이터베이스</a></td>
-                                                <td>960</td>
-                                                <td>O</td>
-                                                <td>O</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/140">(구)
-                                                        정보처리-데이터통신</a></td>
-                                                <td>960</td>
-                                                <td>O</td>
-                                                <td>O</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/141">(구)
-                                                        정보처리-소프트웨어공학</a></td>
-                                                <td>960</td>
-                                                <td>O</td>
-                                                <td>O</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/142">(구)
-                                                        정보처리-운영체제</a></td>
-                                                <td>960</td>
-                                                <td>O</td>
-                                                <td>O</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="tbl-bank" id="bank_area_4">
-                                    <table>
-                                        <caption></caption>
-                                        <colgroup>
-                                            <col width="*">
-                                            <col width="105px;">
-                                            <col width="80px;">
-                                            <col width="80px;">
-                                        </colgroup>
-                                        <thead>
-                                            <tr>
-                                                <th scope="col"><span class="title">자격증 실기</span></th>
-                                                <th scope="col">총 입력문제 수</th>
-                                                <th scope="col">해설 유무</th>
-                                                <th scope="col">동영상해설</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/33">정보처리기사 실기</a>
-                                                </td>
-                                                <td>0</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/34">정보처리산업기사 실기</a>
-                                                </td>
-                                                <td>0</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/35">사무자동화 산업기사 실기</a>
-                                                </td>
-                                                <td>0</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/38">정보처리 기능사 실기</a>
-                                                </td>
-                                                <td>0</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/36">컴퓨터활용능력 1급 실기</a>
-                                                </td>
-                                                <td>0</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/37">컴퓨터활용능력 2급 실기</a>
-                                                </td>
-                                                <td>0</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="tbl-bank" id="bank_area_5">
-                                    <table>
-                                        <caption></caption>
-                                        <colgroup>
-                                            <col width="*">
-                                            <col width="105px;">
-                                            <col width="80px;">
-                                            <col width="80px;">
-                                        </colgroup>
-                                        <thead>
-                                            <tr>
-                                                <th scope="col"><span class="title">경찰&amp;소방 공무원</span></th>
-                                                <th scope="col">총 입력문제 수</th>
-                                                <th scope="col">해설 유무</th>
-                                                <th scope="col">동영상해설</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/86">경찰공무원 경찰학개론</a>
-                                                </td>
-                                                <td>560</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/87">경찰공무원 형법</a></td>
-                                                <td>780</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/88">경찰공무원 행정법</a>
-                                                </td>
-                                                <td>300</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/89">경찰공무원 한국사</a>
-                                                </td>
-                                                <td>640</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/90">경찰공무원 영어</a></td>
-                                                <td>380</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/91">경찰공무원 형사소송법</a>
-                                                </td>
-                                                <td>640</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/92">경찰공무원 국어</a></td>
-                                                <td>340</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/93">경찰공무원 사회</a></td>
-                                                <td>380</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/94">경찰공무원 수사</a></td>
-                                                <td>220</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/138">경찰공무원 행정학</a>
-                                                </td>
-                                                <td>80</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/125">경찰공무원(간부)
-                                                        정보보호론</a></td>
-                                                <td>200</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/143">경찰(경채) 정보보호론</a>
-                                                </td>
-                                                <td>80</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/144">경찰(경채)
-                                                        시스템네트워크보안</a></td>
-                                                <td>80</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/145">경찰(경채)
-                                                        정보보안관리및법규</a></td>
-                                                <td>80</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/146">경찰(경채)
-                                                        데이터베이스론</a></td>
-                                                <td>80</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/110">소방공무원 소방학개론</a>
-                                                </td>
-                                                <td>205</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/111">소방공무원 행정법총론</a>
-                                                </td>
-                                                <td>45</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/112">소방공무원 소방관계법규</a>
-                                                </td>
-                                                <td>200</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/113">소방공무원 국어</a>
-                                                </td>
-                                                <td>220</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/114">소방공무원 한국사</a>
-                                                </td>
-                                                <td>250</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/115">소방공무원 영어</a>
-                                                </td>
-                                                <td>120</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/116">소방공무원 사회</a>
-                                                </td>
-                                                <td>80</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/117">소방공무원 과학</a>
-                                                </td>
-                                                <td>40</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/118">소방공무원 수학</a>
-                                                </td>
-                                                <td>20</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/121">해양경찰 컴퓨터일반</a>
-                                                </td>
-                                                <td>100</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/122">해양경찰 네트워크보안</a>
-                                                </td>
-                                                <td>100</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/123">해양경찰 정보시스템보안</a>
-                                                </td>
-                                                <td>100</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/173">해양경찰 행정학</a>
-                                                </td>
-                                                <td>120</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/174">해양경찰 행정법</a>
-                                                </td>
-                                                <td>120</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/175">해양경찰 한국사</a>
-                                                </td>
-                                                <td>300</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/176">해양경찰 형법</a></td>
-                                                <td>300</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/177">해양경찰 형사소송법</a>
-                                                </td>
-                                                <td>440</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/183">해양경찰 국어</a></td>
-                                                <td>60</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/184">해양경찰 영어</a></td>
-                                                <td>60</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/185">해양경찰 해양경찰학개론</a>
-                                                </td>
-                                                <td>240</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="subject"><a href="/itembank/subjectlist/186">해양경찰 사회</a></td>
-                                                <td>20</td>
-                                                <td>X</td>
-                                                <td>X</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                                <button class="close_modal" title="닫기"><i class="xi-close-thin"></i></button>
-                            </div>
-                        </div>
-
-                        <script>
-                            (function() {
-                                $('.bank-listbox > dt > a').click(function(){
-                                    $('body').addClass('scroll_hidden'); // 스크롤 차단
-                                    $('.tbl-bank').hide();
-                                    $(this.hash).show();
-                                    $('.modal_bank_pop').show();
-                                });
-
-                                $('.modal_bank_pop').click(function(){
-                                    $(this).hide();
-                                    $('body').removeClass('scroll_hidden');
-                                });
-
-                            }());
-
-                        </script>
-
+                       기존 페이지 내용
                     </div><!--문제 은행리스트-->
 
 
@@ -1593,116 +204,57 @@
         <!--footer-->
         <footer class="eduon_footer">
             <div class="footer_wrap">
-                <div class="footer_flex">
-                    <div class="company_info">
-                        <em class="company_nm">(주) 세진에듀</em>
-                        <ul class="info_list">
-                            <li>대표이사 : 이재헌 | 개인정보책임자 : 박명식 (sjedu04@nate.com)</li>
-                            <li>사업자등록번호 : 304-81-27235 [사업자 정보확인]</li>
-                            <li>통신판매업신고 : 2021-서울성동-01578</li>
-                            <li>출판사 신고 : 도서출판 세진에듀 (제2008-1호)</li>
-                            <li>소재지 : 서울특별시 성동구 광나루로8길31(성수동2가) SK V1 2동 1206호</li>
-                            <li>기업부설연구소 : 강원도 원주시 지정면 신지정로 212, 퍼스트프라자 702호</li>
-                        </ul>
-                    </div>
-                    <ul class="footer_nav">
-                        <li>
-                            <a href="#">회사소개</a>
-                            <ul>
-                                <li><a href="#">세진에듀 소개</a></li>
-                                <li><a href="#">회사연혁</a></li>
-                                <li><a href="#">비전과 미션</a></li>
-                                <li><a href="#">사회환원</a></li>
-                                <li><a href="#">미디어</a></li>
-                                <li><a href="#">오시는 길</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">강의제작지원센터</a>
-                            <ul>
-                                <li><a href="#">강사모집 안내</a></li>
-                                <li><a href="#">강의개설 안내</a></li>
-                                <li><a href="#">브랜드 입점</a></li>
-                                <li><a href="#">스튜디오 소개</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">문제은행</a>
-                            <ul>
-                                <li><a href="#">기출문제</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">교재몰</a>
-                            <ul>
-                                <li><a href="#">교재구매</a></li>
-                                <li><a href="#">교재공지</a></li>
-                                <li><a href="#">교재문의</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">평생교육</a>
-                            <ul>
-                                <li><a href="">전체강좌</a></li>
-                                <li><a href="">공무원</a></li>
-                                <li><a href="">자격증</a></li>
-                                <li><a href="">IT&amp;Software</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">학습지원센터</a>
-                            <ul>
-                                <li><a href="#">공지사항</a></li>
-                                <li><a href="#">1:1 상담게시판</a></li>
-                                <li><a href="#">입금/결제 문의</a></li>
-                                <li><a href="#">동영상 재생 문의</a></li>
-                                <li><a href="#">공동구매 신청</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">필수프로그램</a></li>
-                            </ul>
-                        </li>
+                <div class="footer_family">
+                    <a href="#">Family site <i class="xi-angle-up"></i></a>
+                    <ul>
+                        <li><a href="/yst">에듀온 유상통</a></li>
+                        <li><a href="/army">에듀온 군무원</a></li>
+                        <li><a href="/official">에듀온 전산직</a></li>
+                        <li><a href="/info">에듀온 정보처리</a></li>
                     </ul>
-
-                    <a href="#TOP" class="anchor_top"><i class="xi-arrow-up"><span class="hidden">위로</span></i></a>
                 </div>
+                <ul class="contact_link">
+                    <li><a href="#">강의제작 지원센터</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                </ul>
+
                 <div class="company_contact">
                     <em>대표 전화</em>
                     <div class="phone_number">
                         <tel href="1599-9470">1599-9470</tel>
                         <span>평일 9:30 - 17:30 (토, 일, 공휴일 휴무)</span>
                     </div>
-                    <div class="contact_link">
-                        <a href="#">강의제작지원센터</a>
-                        <a href="#">제휴문의</a>
-                    </div>
                 </div>
-                <div class="footer_flex">
-                    <ul class="policy_link">
-                        <li><a href="#">사이트 이용약관</a></li>
-                        <li><a href="#">개인정보취급방침</a></li>
-                        <li><a href="#">이메일무단수집거부</a></li>
-                        <li><a href="#">제휴문의</a></li>
-                        <li><a href="#"><b>강의제작 지원센터</b></a></li>
+
+                <div class="social_link">
+                    <ul class="sns_link">
+                        <li><a href="#"><i class="xi-youtube-play"><span class="hidden">유투브</span></i></a></li>
+                        <li><a href="#"><i class="xi-instagram"><span class="hidden">인스타 그램</span></i></a></li>
+                        <li><a href="#" class="blog">b <span class="hidden">네이버 블로그</span></a></li>
+                        <li><a href="#"><i class="xi-cafe"><span class="hidden">네이버 카페</span></i></a></li>
+                        <li><a href="#"><i class="xi-naver-square"><span class="hidden">네이버 TV</span></i></a></li>
                     </ul>
-                    <div class="social_link">
-                        <ul class="sns_link">
-                            <li><a href="#"><i class="xi-youtube-play"><span class="hidden">유투브</span></i></a></li>
-                            <li><a href="#"><i class="xi-instagram"><span class="hidden">인스타 그램</span></i></a></li>
-                            <li><a href="#" class="blog">b <span class="hidden">네이버 블로그</span></a></li>
-                            <li><a href="#"><i class="xi-cafe"><span class="hidden">네이버 카페</span></i></a></li>
-                            <li><a href="#"><i class="xi-naver-square"><span class="hidden">네이버 TV</span></i></a></li>
-                        </ul>
-                        <div class="footer_family">
-                            <a href="#">Family site <i class="xi-angle-up-min"></i></a>
-                            <ul>
-                                <li><a href="/yst">에듀온 유상통</a></li>
-                                <li><a href="/army">에듀온 군무원</a></li>
-                                <li><a href="/official">에듀온 전산직</a></li>
-                                <li><a href="/info">에듀온 정보처리</a></li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
+
+                <div class="company_info">
+                    <em class="company_nm">(주) 세진에듀</em>
+                    <ul class="info_list">
+                        <li>대표이사 : 이재헌 | 개인정보책임자 : 박명식 (sjedu04@nate.com)</li>
+                        <li>사업자등록번호 : 304-81-27235 [사업자 정보확인]</li>
+                        <li>통신판매업신고 : 2021-서울성동-01578</li>
+                        <li>출판사 신고 : 도서출판 세진에듀 (제2008-1호)</li>
+                        <li>소재지 : 서울특별시 성동구 광나루로8길31(성수동2가) SK V1 2동 1206호</li>
+                        <li>기업부설연구소 : 강원도 원주시 지정면 신지정로 212, 퍼스트프라자 702호</li>
+                    </ul>
+                </div>
+                
+
+                <ul class="policy_link">
+                    <li><a href="#">사이트 이용약관</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                </ul>
+                
             </div>
         </footer>
         <!--//footer-->

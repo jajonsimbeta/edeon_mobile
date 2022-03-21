@@ -190,51 +190,45 @@
                             </ul>
                         
                             <div class="studio_pic on" id="STUDIO_PIC1">
-                                <ul>
-                                    <li><a href="#"><img src="images/studio_pic1_1.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic1_2.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic1_3.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic1_4.jpg" alt=""></a></li>
-                                </ul>
+                                <div class="gallery_scroll">
+                                    <div class="item"><a href="#"><img src="images/studio_pic1_1.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic1_2.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic1_3.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic1_4.jpg" alt=""></a></div>
+                                </div>
                                 <p><em>STUDIO 1</em> 100인치 대형 모니터, 강의 촬영 전용 스튜디오 100인치 대형 모니터, 강의 촬영 전용 스튜디오 100인치 대형 모니터 </p>
                             </div>
                             <div class="studio_pic" id="STUDIO_PIC2">
-                                <ul>
-                                    <li><a href="#"><img src="images/studio_pic2_1.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic2_2.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic2_3.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic2_4.jpg" alt=""></a></li>
-                                </ul>
+                                <div class="gallery_scroll">
+                                    <div class="item"><a href="#"><img src="images/studio_pic2_1.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic2_2.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic2_3.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic2_4.jpg" alt=""></a></div>
+                                </div>
                                 <p><em>STUDIO 2</em> 100인치 대형 모니터, 강의 촬영 전용 스튜디오</p>
                             </div>
+
+
                             <div class="studio_pic" id="STUDIO_PIC3">
-                                <ul>
-                                    <li><a href="#"><img src="images/studio_pic3_1.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic3_2.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic3_3.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic3_4.jpg" alt=""></a></li>
-                                </ul>
+                                <div class="gallery_scroll">
+                                    <div class="item"><a href="#"><img src="images/studio_pic3_1.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic3_2.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic3_3.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic3_4.jpg" alt=""></a></div>
+                                </div>
                                 <p><em>STUDIO 3</em> 100인치 대형 모니터, 강의 촬영 전용 스튜디오</p>
                             </div>
                             <div class="studio_pic" id="STUDIO_PIC4">
-                                <ul>
-                                    <li><a href="#"><img src="images/studio_pic4_1.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic4_2.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic4_3.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="images/studio_pic4_4.jpg" alt=""></a></li>
-                                </ul>
+                                <div class="gallery_scroll">
+                                    <div class="item"><a href="#"><img src="images/studio_pic4_1.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic4_2.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic4_3.jpg" alt=""></a></div>
+                                    <div class="item"><a href="#"><img src="images/studio_pic4_4.jpg" alt=""></a></div>
+                                </div>
                                 <p><em>STUDIO 4</em> 100인치 대형 모니터, 강의 촬영 전용 스튜디오</p>
                             </div>
 
-                            <!--//스튜디어 사진 갤러리-->
-                            <div class="gallery_viewer" style="display: none;"> 
-                                <div class="dir_btn">
-                                    <button type="button" class="prev"><i class="xi-angle-left-thin"></i></button>
-                                    <button type="button" class="next"><i class="xi-angle-right-thin"></i></button>
-                                </div>
-
-                                <button type="button" class="close_gallery"><i class="xi-close-thin"></i></button>
-                            </div>
+                           
                         </div>
                         <script>
                             (function() {
@@ -249,67 +243,23 @@
                                     $('.studio_pic').removeClass('on');
                                     $(this.hash).addClass('on');
                                 });
-
+                                /*
                                 var gallerymove = setInterval(function(){
                                     gallerynum = (gallerynum+1) % tabtotalnum;
                                     $('.studio_gallery_tab > li > a').eq(gallerynum).trigger('click');
-                                },dur);
-                                
-
-                                var curnum = 0;
-                                var totalNum = 0;
-                                $('.studio_pic').each(function(){
-                                    $(this).find('> ul > li').each(function(index){
-                                        $(this).click(function(e){
-                                            //clearInterval(gallerymove); // 자동롤링 멈춤
-                                            e.preventDefault();
-                                            console.log(index)
-                                            $('body').addClass('scroll_hidden'); // 스크롤 차단
-                                            $('.gallery_viewer').show();
-                                            $('.gallery_viewer > ul').remove();
-                                            var ga_el = $(this).parent('ul').clone();
-                                            $('.gallery_viewer').prepend(ga_el);
-                                            curnum = index;
-                                            $('.gallery_viewer > ul > li').eq(index).addClass('on');
-                                            totalNum = $('.gallery_viewer > ul > li').length;
-                                            
-                                        });
+                                },dur);*/
+                                $('.gallery_scroll').each(function(){
+                                    $(this).bxSlider({
+                                        speed: 500,
+                                        pager:false,
+                                        pause: 5000,
+                                        auto: true,
+                                        controls: false,
+                                        touchEnabled:(navigator.maxTouchPoints > 0),
                                     });
-                                });
-
+                                })
                                 
-                                $('.studio_pic_wrap').hover(function(){
-                                    clearInterval(gallerymove);
-                                },function(){
-                                    gallerymove = setInterval(function(){
-                                        gallerynum = (gallerynum+1) % tabtotalnum;
-                                        $('.studio_gallery_tab > li > a').eq(gallerynum).trigger('click');
-                                    },dur);
-                                });
-                            
-                                function scrollMove(obj){
-                                    if(obj.hasClass('next')){
-                                        curnum = (curnum+1) % totalNum;
-                                    }else{
-                                        if(curnum > 0){
-                                            curnum--;
-                                        }else{
-                                            curnum = totalNum-1;
-                                        }
-                                    }
-                                    $('.gallery_viewer > ul > li').removeClass('on').eq(curnum).addClass('on');
-                                }
-
-                                $('.gallery_viewer > .dir_btn > button').on('click',function(e){
-                                    scrollMove($(this));
-                                });
                                 
-                                $('.gallery_viewer').on('click',function(e){
-                                    if(!$(e.target).hasClass('xi-angle-right-thin')&&!$(e.target).hasClass('xi-angle-left-thin')){
-                                        $(this).hide();
-                                        $('body').removeClass('scroll_hidden');
-                                    }
-                                });
                             }());
 
                         </script>

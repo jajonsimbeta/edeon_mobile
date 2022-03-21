@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에듀온</title>
+    <meta name="description" content="평생교육기업, 공무원 계리직 합격자수 1위, 군무원, 정보처리기사, 전산직, 문제은행">
+    <link href="https://cdn.jsdelivr.net/xeicon/2/xeicon.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css" />
+    <link rel="stylesheet" type="text/css" href="css/eduon_common.css">
+    <link rel="stylesheet" type="text/css" href="css/eduon_sub.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/eduon_ui.js"></script>
+</head>
+<body>
+    <div class="eduon_wrap">
+        <main class="content_wrap">
+            <div class="menubar">
+                <span class="logo"><img src="images/eduon_logo_w.png" alt="에듀온"></span>
+                <button class="menu_close"><i class="xi-close"><span class="hidden">닫기</span></i></button>
+            </div>
+
+            <div class="member_wrap">
+                <h1 class="title">이메일/비밀번호 찾기</h1>
+                <div class="find-step">
+                    <form action="https://eduon.com/" id="findEmailFrm" name="findEmailFrm" method="post" accept-charset="utf-8">
+                        <h2 class="title1">가입된 메일주소 찾기</h2>
+                        <!-- Mobile -->
+                        <div class="int-row user-phone">
+                            <div class="selectbox">
+                                <select id="search_email_hp1" name="strHp1" title="휴대전화번호 첫번째 세자리" class="sel">
+                                    <option value="010">010</option>
+                                    <option value="011">011</option>
+                                    <option value="016">016</option>
+                                    <option value="017">017</option>
+                                    <option value="018">018</option>
+                                    <option value="019">019</option>
+                                </select>
+                            </div>
+                            <input type="number" class="int text-center" name="strHp2" maxlength="4" placeholder=""  title="휴대전화번호 두번째 자리"><span class="gap">-</span>
+                            <input type="number" class="int text-center" name="strHp3" maxlength="4" placeholder=""  title="휴대전화번호 세번째 자리">
+                        </div>
+                        <!-- //Mobile -->
+                        <div class="btnbox">
+                            <a class="btn-type1" href="javascript:toSearchEmail();">메일주소 발송</a>
+                        </div>
+                        <div class="notice">
+                            입력하신 휴대전화로 회원가입에 사용된 메일주소가 발송됩니다.
+                        </div>  
+                    </form>
+                </div>
+
+                <div class="find-step">
+                    <form action="https://eduon.com/" id="findPasswordFrm" name="findPasswordFrm" method="post" accept-charset="utf-8">
+                        <input type="text" name="tmpPasswordFrm" id="tmpPasswordFrm" style="display:none;">
+                        <h2 class="title1">비밀번호 재설정</h2>
+                        <!-- E-Mail -->
+                        <div class="int-row user-email">
+                            <input type="text" class="int" name="strEmail" placeholder="이메일" onkeypress="_comm_enter_callback(toSearchPassword)">
+                        </div>
+                        <!-- //E-Mail -->
+                        <div class="btnbox">
+                            <a class="btn-gray btn-type1" href="javascript:toSearchPassword();">임시비밀번호 메일발송</a>
+                        </div>
+                        <div class="notice">
+                            입력하신 주소의 메일로 임시 비밀번호가 발급됩니다.
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        
+        </main>
+
+        <!--footer-->
+        <footer class="eduon_footer">
+            <div class="footer_wrap">
+                <div class="footer_family">
+                    <a href="#">Family site <i class="xi-angle-up"></i></a>
+                    <ul>
+                        <li><a href="/yst">에듀온 유상통</a></li>
+                        <li><a href="/army">에듀온 군무원</a></li>
+                        <li><a href="/official">에듀온 전산직</a></li>
+                        <li><a href="/info">에듀온 정보처리</a></li>
+                    </ul>
+                </div>
+                <ul class="contact_link">
+                    <li><a href="#">강의제작 지원센터</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                </ul>
+
+                <div class="company_contact">
+                    <em>대표 전화</em>
+                    <div class="phone_number">
+                        <tel href="1599-9470">1599-9470</tel>
+                        <span>평일 9:30 - 17:30 (토, 일, 공휴일 휴무)</span>
+                    </div>
+                </div>
+
+                <div class="social_link">
+                    <ul class="sns_link">
+                        <li><a href="#"><i class="xi-youtube-play"><span class="hidden">유투브</span></i></a></li>
+                        <li><a href="#"><i class="xi-instagram"><span class="hidden">인스타 그램</span></i></a></li>
+                        <li><a href="#" class="blog">b <span class="hidden">네이버 블로그</span></a></li>
+                        <li><a href="#"><i class="xi-cafe"><span class="hidden">네이버 카페</span></i></a></li>
+                        <li><a href="#"><i class="xi-naver-square"><span class="hidden">네이버 TV</span></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="company_info">
+                    <em class="company_nm">(주) 세진에듀</em>
+                    <ul class="info_list">
+                        <li>대표이사 : 이재헌 | 개인정보책임자 : 박명식 (sjedu04@nate.com)</li>
+                        <li>사업자등록번호 : 304-81-27235 [사업자 정보확인]</li>
+                        <li>통신판매업신고 : 2021-서울성동-01578</li>
+                        <li>출판사 신고 : 도서출판 세진에듀 (제2008-1호)</li>
+                        <li>소재지 : 서울특별시 성동구 광나루로8길31(성수동2가) SK V1 2동 1206호</li>
+                        <li>기업부설연구소 : 강원도 원주시 지정면 신지정로 212, 퍼스트프라자 702호</li>
+                    </ul>
+                </div>
+                
+
+                <ul class="policy_link">
+                    <li><a href="#">사이트 이용약관</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                </ul>
+                
+            </div>
+        </footer>
+        <!--//footer-->
+
+    </div>
+</body>
+</html>
