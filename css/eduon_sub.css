@@ -245,11 +245,15 @@
 .int-row > input::placeholder{color:#909090}
 .int-row > input[type=password],
 .int-row > input[type=text]{flex:1;  color:#222 }
+.user-phone input{width:28%}
+.user-phone .selectbox{width: 28%;}
+.user-phone .selectbox > select{width: 100%;}
 .bot-check{display: flex; margin-top:2rem; justify-content: space-between; color:#909090}
 .bot-check label,
-.bot-check > a{color:#909090}
+.bot-check > a{color:#909090; white-space: nowrap; word-break:keep-all;}
 .bot-check .common-checkbox{display: flex; align-items: center;}
 .bot-check .common-checkbox > input{border: 1px solid #CFCFCF; width:2rem; height:2rem; margin-right: 0.5rem;}
+
 
 .btnbox{margin-top: 3rem;}
 .btnbox + .btnbox{margin-top: 1rem;}
