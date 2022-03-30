@@ -12,9 +12,9 @@
 .cont_nav.on{max-height:100rem}
 .cont_nav .home{display: block;width:5rem;height:5rem ; font-size:1.4rem; color:#000; text-align: center; border-bottom:1px solid #E1E1E1 }
 .cont_nav_depth{background: #FFF; cursor: pointer; position: relative; box-sizing: border-box; flex:1;border-left:1px solid #E1E1E1;}
-.cont_nav_depth > em{font-size:1.4rem;display: flex; justify-content: space-between; align-items: center; color:#959595; font-weight:700;padding:0 .9rem;border-bottom:1px solid #E1E1E1 }
+.cont_nav_depth > em{font-size:1.4rem;display: flex; justify-content: space-between; align-items: center; color:#959595; font-weight:700;padding:0 .9rem;border-bottom:1px solid #E1E1E1; white-space: nowrap; }
 .cont_nav_depth > ul{padding-bottom: 15px; z-index: 10; box-sizing: border-box; background:#FFF; line-height: 2.5; font-size:1.2rem;padding:1.2rem .9rem;  }
-.cont_nav_depth > ul > li > a{color:#909090}
+.cont_nav_depth > ul > li > a{color:#909090; white-space: nowrap;}
 .cont_nav_depth > ul > li > a.active{color:#FF5050}
 
 .sub_content .grid_fix{ position: relative;}
@@ -40,7 +40,7 @@
 .history_list > li > ul > li > b{font-weight: 700; width:40px; min-width: 40px; ;margin-right: 25px; }
 
 .company_vision{background: #FAFAFA; padding: 6rem 1.5rem;}
-.company_vision h3{margin-bottom: 40px;}
+.company_vision h3{margin-bottom: 40px; text-align: center;}
 .mission_section{background:url('../images/bg_mission.png') no-repeat; height:67vw; display: flex; flex-flow: column; align-items: center; justify-content: center; background-size: 100% auto;}
 .mission_section > h4{font-size: 6vw;line-height: 1.5;text-align: center; letter-spacing: -0.01em; font-weight: 700; color:#FFFBEE; margin-bottom: 16px;}
 .mission_section > p{font-weight: 600;font-size: 8vw;line-height: 1.2;text-align: center;letter-spacing: -0.01em;color: #FFFFFF;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
@@ -58,20 +58,19 @@
 .sns_list{ display: flex; justify-content: space-between; flex-wrap: wrap;}
 .sns_list > li{width:48%;}
 .sns_list > li > a > img{width:100%}
-.media_tbl{width:100%; line-height: 1.25; margin-top: 3.4rem;}
+.media_tbl{width:100%; line-height: 1.25;}
 .media_tbl > thead > tr > th{text-align: center; color:#000; border-top: 2px solid #787878; border-bottom: 1px solid #787878; padding:1.5rem 0;}
 .media_tbl > tbody > tr > td{padding:1.5rem .5rem; border-bottom: 1px solid #787878; }
 .media_tbl > tbody > tr > td:last-child{text-align: center;}
 .media_tbl > tbody > tr > td > a{display: block;  }
 .company_media .more{position:absolute; top:-3.8rem; right:0; font-size:1.5rem;text-align: center; color: #959595; font-weight: normal; border:1px solid #959595; line-height: 2rem; width: 2rem; height:2rem; box-sizing: border-box;}
 
-.company_location {padding: 6rem 1.5rem;}
-.company_location h3{margin-bottom: 3rem;}
+.company_location {padding: 6rem 1.5rem; border-top:1rem solid #F8F8F8;}
+.company_location h3{margin-bottom: 3rem; text-align: center;}
 .location_tab{ display: flex;}
 .location_tab > li{flex:1}
 .location_tab > li > a{display: block; background: #F3F4F4; line-height: 4.5rem; color:#000; font-weight: 700; text-align: center; font-size:1.6rem}
-.location_tab > li > a.on,
-.location_tab > li > a:hover{background: #000; color:#FFF}
+.location_tab > li > a.on{background: #000; color:#FFF}
 .map_area {margin-top: 3rem;}
 .map_area > img{width:100%}
 .adress_list{border-top:1px solid #000; border-bottom:1px solid #000; margin-top: 42px;}
@@ -85,22 +84,23 @@
 .support_process{padding: 4.5rem 1.5rem; position: relative;}
 .support_process h3{margin-bottom: 2.5rem;}
 .process_list{position: relative;}
-.process_list > li{ margin-bottom: 3rem; font-size:14rem; color:#000; line-height: 25px; }
-.process_list .header{position: relative;  display: flex;}
+.process_list  > li{ margin-bottom: 3rem; font-size:1.4rem; color:#000; line-height: 1.54rem; }
+.process_list li > ul > li{text-indent: -0.5em; padding-left: 0.8em; }
+.process_list li > ul > li + li{margin-top: 1rem;}
+.process_list .header{position: relative;  display: flex; font-size:1.6rem; margin-bottom: 1.5rem;}
 .process_list .header .icon{ display: none;}
 .process_list .header .num{display: block; color:#FF5050; font-weight: 700; margin-right: 0.5rem;}
 .process_list .header .tit{display: block; color:#000; font-weight: 700;}
 .process_list > li > ul > li::before{content:'\00B7'; margin-right: 0.5rem; font-size:2;}
-.techer_list > li{margin-bottom: 1rem;}
+.techer_list > li{margin-bottom: 1rem; }
 .techer_list > li > a > img{width:100%}
-.support_techers{padding: 4.5rem 1.5rem;}
+.support_techers{padding: 0 1.5rem 4.5rem;}
 .support_techers h3{margin-bottom: 2.5rem;}
 
-.support_summary{font-size:2rem;  font-weight: 700; line-height: 1.25em; color:#000;  padding:4.5rem 0; margin: 0 1.5rem; border-bottom: 1px solid #CFCFCF;}
-.support_summary > p{font-size:2rem}
+.support_summary{font-size:2rem;  font-weight: 700; line-height: 1.4em; color:#000;  padding:4.5rem 1.5rem;  border-bottom: 1px solid #CFCFCF; background: #F8f8f8;}
+.support_summary > p{font-size:2rem; word-break:keep-all;}
 .support_btn{margin-top: 43px;}
 .defalt_btn{display: inline-block; font-size: 1.8rem; line-height: 2.5; background: #000;  color:#FFF; font-weight: 800;  width:100%; text-align: center;}
-.defalt_btn:hover{background: #FF5050;}
 
 
 /* 강의 개설 안내*/
@@ -119,20 +119,19 @@
 
 /* 스튜디오 소개 */
 .sub_visual.studio{background-image: url('../images/visual_studio.jpg');}
-.studio_warp{ position: relative;padding: 4.5rem 1.5rem; }
+.studio_warp{ position: relative;padding: 4.5rem 1.5rem 7rem; }
 .studio_warp + .studio_warp{padding-top: 0;}
 .studio_warp h3{margin-bottom: 1.5rem;}
 .studio_tab{display: flex; margin: 0 -1.5rem; padding:0 1.5rem}
 .studio_tab > li{flex:1}
 .studio_tab > li > a{display: block; text-align: center; line-height:3.5; font-weight: 600; color:#000;border-bottom:4px solid #cfcfcf; font-size:1.4rem; transition: all 0.5s; }
-.studio_tab > li > a.on,
-.studio_tab > li > a:hover{color:#FF5050; border-color:#FF5050;}
+.studio_tab > li > a.on{color:#FF5050; border-color:#FF5050;}
 .studio_pic_wrap{position: relative;  margin: 0 -1.5rem; height:90vw}
 .studio_pic{position: absolute; top:5.3rem; left:0; width:100%;  opacity: 0; transition: all 0.5s;}
 .studio_pic.on{opacity: 1; z-index: 2;}
 
 .gallery_scroll  img{width:100%}
-.studio_pic > p{font-size:1.4rem; margin-top:1rem; color:#000; display: flex;  padding: 0 1.5rem;}
+.studio_pic > p{font-size:1.4rem; margin-top:1rem; color:#000; display: flex;  padding: 0 1.5rem; line-height: 1.4; word-break: keep-all; }
 .studio_pic > p > em{font-weight: 700; margin-right:1em; white-space: nowrap;}
 
 .studio_mov_wrap{margin: 0 -1.5rem;}
@@ -201,7 +200,6 @@
 .bank-listbox dd{padding-top:15px;}
 .bank-listbox dd ul li{margin-bottom: 10px;}
 .bank-listbox dd ul li a{max-width:100%; display:inline-block; padding-right:14px; background:url(../images/arrow_right_gray02.png) no-repeat right center; line-height:31px; font-size:17px; color:#5c5c5c; font-family:'notokr-demilight'; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; box-sizing:border-box; letter-spacing:-1px; vertical-align:top;}
-.bank-listbox dd ul li a:hover{color:#ff6914; background-image:url(../images/arrow_right_orange02.png);}
 
 .modal_bank_pop{position: fixed; top:0; left:0; width:100%; height:100%; z-index: 1000; background: rgba(0,0,0,0.8); display: flex; align-items: center; justify-content: center;}
 .tbl-bank-wrap{background: #FFF; width:632px;height:687px; box-sizing: border-box; border:1px solid #222;position: relative;}
@@ -212,7 +210,6 @@
 .tbl-bank tbody td{height:41px; font-size:16px; color:#a1a1a1; font-family:'Roboto'; font-weight:300; text-align:center; border-bottom:1px solid #e2e2e2;}
 .tbl-bank tbody td.subject{text-align:left; vertical-align:middle;}
 .tbl-bank tbody td.subject a{display:inline-block; max-width:90%; line-height:41px; font-size:17px; color:#5b5b5b; font-family:'notokr-demilight'; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; padding-right:14px; background :url(../images/arrow_right_gray02.png) no-repeat right center; vertical-align:top; letter-spacing:-0.5px;}
-.tbl-bank tbody td.subject a:hover{color:#ff6914; background-image:url(../images/arrow_right_orange02.png);}
 .tbl-bank-wrap .close_modal{position: absolute; top:-40px; right:0; color:#FFF; font-size:40px}
 
 .title_search > h3{color:#222;margin-bottom: 1.6rem;}

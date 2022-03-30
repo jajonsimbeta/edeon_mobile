@@ -62,7 +62,7 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */ color: transp
 .main_nav > li > ul{background: #F8F8F8; padding:0 15px; height:0px; overflow: hidden; box-sizing: border-box; }
 .main_nav > li > ul > li > a{display: block; line-height: 2.5; font-size:1.4rem; font-weight: 700;}
 .main_nav > li.active > a::after{ transform: rotate(180deg);}
-.main_nav > li.active > ul{min-height: 20%; padding:8px 15px ; height: auto;}
+.main_nav > li.active > ul{min-height: 20%; padding:8px 18px ; height: auto;}
 
 .member_info{position: fixed; top:0; right:0; background: #FFF; width:70vw; height:100vh; z-index: 1000; overflow-y: auto; transform: translateX(101%); transition: all 0.5s;}
 .member_info.active{transform: translateX(0);}
@@ -84,7 +84,7 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */ color: transp
 .sns_link > li > a{color:#FFF; display: block; padding: 10px 0px 0px 0px;text-align: center; font-size:2.0rem}
 .sns_link > li > a.blog{line-height: 1; font-weight: 900; font-size:22px}
 
-.footer_wrap .company_info {margin-top: 4.7rem; padding:0 1.6rem; font-size:1.4rem; line-height: 1.4rem; }
+.footer_wrap .company_info {margin-top: 4.7rem; padding:0 1.6rem; font-size:1.4rem; line-height: 1.8rem; }
 .footer_wrap .company_info .company_nm{font-weight:600; display: block; color:#FFF; margin-bottom: 1em;}
 .footer_wrap .company_info .info_list > li{font-size:1.2rem}
 
@@ -96,7 +96,7 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */ color: transp
 .footer_family > a > i{margin-left: 0.5rem;}
 .footer_family.active > a > i{transform: rotate(180deg);} 
 
-.contact_link{;display: flex; border-bottom:1px solid rgba(255,255,255,0.2);}
+.contact_link{display: flex; border-bottom:1px solid rgba(255,255,255,0.2);}
 .contact_link > li{flex:1}
 .contact_link > li > a{ line-height: 47px; color:#FFF ; text-align: center;  display: block; font-weight: 700;}
 .contact_link > li:last-child > a{color:#FF5050}
@@ -105,4 +105,3 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */ color: transp
 .policy_link > li > a{color:#D3D3D3; padding:0 1rem; display: block; line-height: 1; font-size:1.2rem}
 .policy_link > li{border-right:1px solid rgba(211, 211, 211, 0.5); height:1.4rem}
 .policy_link > li:last-child{border-right:none}
-.policy_link > li:first-child > a{padding-left: 0;}
